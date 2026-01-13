@@ -1,0 +1,20 @@
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:[m[K In member function ‘[01m[Kvoid springsys::features()[m[K’:
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:29:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kx_[m[K’
+   29 |        [01;31m[Kx_[m[K += v*dt ;
+      |        [01;31m[K^~[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:33:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope; did you mean ‘[01m[Kv_[m[K’?
+   33 |        const double F_damp = -b*[01;31m[Kv[m[K-;
+      |                                 [01;31m[K^[m[K
+      |                                 [32m[Kv_[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:33:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+   33 |        const double F_damp = -b*v-[01;31m[K;[m[K
+      |                                   [01;31m[K^[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:83:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs::Marker[m[K’ has not been declared
+   83 |        spring.type = visualization_msgs::[01;31m[KMarker[m[K::LINE_STRIP;
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:34:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KF_net[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   34 |        const double [01;35m[KF_net[m[K = F_spr + F_damp;
+      |                     [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/spring_system.dir/build.make:76: CMakeFiles/spring_system.dir/src/spring_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/spring_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[0.006s] Invoking command in '/home/poochandi/ros2_ws/build/spring_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/poochandi/ros2_ws/build/spring_system -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target spring_system[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/spring_system.dir/src/spring_system.cpp.o[0m
+[1.266s] [01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:[m[K In member function ‘[01m[Kvoid springsys::features()[m[K’:
+[1.266s] [01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:29:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kx_[m[K’
+[1.266s]    29 |        [01;31m[Kx_[m[K += v*dt ;
+[1.266s]       |        [01;31m[K^~[m[K
+[1.270s] [01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:33:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope; did you mean ‘[01m[Kv_[m[K’?
+[1.270s]    33 |        const double F_damp = -b*[01;31m[Kv[m[K-;
+[1.270s]       |                                 [01;31m[K^[m[K
+[1.270s]       |                                 [32m[Kv_[m[K
+[1.270s] [01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:33:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[1.270s]    33 |        const double F_damp = -b*v-[01;31m[K;[m[K
+[1.270s]       |                                   [01;31m[K^[m[K
+[1.270s] [01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:83:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs::Marker[m[K’ has not been declared
+[1.270s]    83 |        spring.type = visualization_msgs::[01;31m[KMarker[m[K::LINE_STRIP;
+[1.270s]       |                                          [01;31m[K^~~~~~[m[K
+[1.270s] [01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:34:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KF_net[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.270s]    34 |        const double [01;35m[KF_net[m[K = F_spr + F_damp;
+[1.270s]       |                     [01;35m[K^~~~~[m[K
+[1.714s] gmake[2]: *** [CMakeFiles/spring_system.dir/build.make:76: CMakeFiles/spring_system.dir/src/spring_system.cpp.o] Error 1
+[1.715s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/spring_system.dir/all] Error 2
+[1.715s] gmake: *** [Makefile:146: all] Error 2
+[1.717s] Invoked command in '/home/poochandi/ros2_ws/build/spring_system' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/poochandi/ros2_ws/build/spring_system -- -j12 -l12

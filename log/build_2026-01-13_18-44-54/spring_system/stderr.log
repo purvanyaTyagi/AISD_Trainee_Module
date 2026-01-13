@@ -1,0 +1,38 @@
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:[m[K In member function ‘[01m[Kvoid springsys::features()[m[K’:
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:27:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope; did you mean ‘[01m[Kx_[m[K’?
+   27 |        const double a = -(k*[01;31m[Kx[m[K)/m;
+      |                             [01;31m[K^[m[K
+      |                             [32m[Kx_[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:29:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kx_[m[K’
+   29 |        [01;31m[Kx_[m[K += v*dt ;
+      |        [01;31m[K^~[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:33:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope; did you mean ‘[01m[Kv_[m[K’?
+   33 |        const double F_damp = -b*[01;31m[Kv[m[K;
+      |                                 [01;31m[K^[m[K
+      |                                 [32m[Kv_[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:53:31:[m[K [01;31m[Kerror: [m[K‘[01m[Krx[m[K’ was not declared in this scope
+   53 |        ball.pose.position.x = [01;31m[Krx[m[K;
+      |                               [01;31m[K^~[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:54:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kry[m[K’ was not declared in this scope; did you mean ‘[01m[Ky[m[K’?
+   54 |        ball.pose.position.y = [01;31m[Kry[m[K;
+      |                               [01;31m[K^~[m[K
+      |                               [32m[Ky[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:55:31:[m[K [01;31m[Kerror: [m[K‘[01m[Krz[m[K’ was not declared in this scope; did you mean ‘[01m[Kz[m[K’?
+   55 |        ball.pose.position.z = [01;31m[Krz[m[K;
+      |                               [01;31m[K^~[m[K
+      |                               [32m[Kz[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:83:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs::Marker[m[K’ has not been declared
+   83 |        spring.type = visualization_msgs::[01;31m[KMarker[m[K::LINE_STRIP;
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:30:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   30 |        const double [01;35m[Ky[m[K = 0;
+      |                     [01;35m[K^[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:31:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   31 |        const double [01;35m[Kz[m[K = 0.0;
+      |                     [01;35m[K^[m[K
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:34:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KF_net[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   34 |        const double [01;35m[KF_net[m[K = F_spr + F_damp;
+      |                     [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/spring_system.dir/build.make:76: CMakeFiles/spring_system.dir/src/spring_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/spring_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

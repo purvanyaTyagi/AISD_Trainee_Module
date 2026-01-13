@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target spring_system[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/spring_system.dir/src/spring_system.cpp.o[0m
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:[m[K In member function ‘[01m[Kvoid springsys::features()[m[K’:
+[01m[K/home/poochandi/ros2_ws/src/spring_system/src/spring_system.cpp:34:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope; did you mean ‘[01m[Kv_[m[K’?
+   34 |        x_ += [01;31m[Kv[m[K*dt;
+      |              [01;31m[K^[m[K
+      |              [32m[Kv_[m[K
+gmake[2]: *** [CMakeFiles/spring_system.dir/build.make:76: CMakeFiles/spring_system.dir/src/spring_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/spring_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

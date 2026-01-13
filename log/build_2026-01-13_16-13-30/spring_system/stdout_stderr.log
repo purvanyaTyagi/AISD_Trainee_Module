@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target spring_system[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/spring_system.dir/src/spring_system.cpp.o[0m
+[100%] [32m[1mLinking CXX executable spring_system[0m
+[100%] Built target spring_system
+-- Install configuration: ""
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/lib/spring_system/spring_system
+-- Set runtime path of "/home/poochandi/ros2_ws/install/spring_system/lib/spring_system/spring_system" to ""
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/ament_index/resource_index/package_run_dependencies/spring_system
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/ament_index/resource_index/parent_prefix_path/spring_system
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/environment/ament_prefix_path.sh
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/environment/ament_prefix_path.dsv
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/environment/path.sh
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/environment/path.dsv
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/local_setup.bash
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/local_setup.sh
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/local_setup.zsh
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/local_setup.dsv
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/package.dsv
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/ament_index/resource_index/packages/spring_system
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/cmake/spring_systemConfig.cmake
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/cmake/spring_systemConfig-version.cmake
+-- Installing: /home/poochandi/ros2_ws/install/spring_system/share/spring_system/package.xml
