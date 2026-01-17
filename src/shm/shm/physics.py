@@ -7,11 +7,13 @@ class MassSpringPhysics(Node):
     def __init__(self):
         super().__init__('mass_spring_physics')
         self.k = 10.0
-        self.b = 0.0
+        self.b = 0.5
         self.m = 1.0
         self.x = 1.0
         self.v = 0.0
         self.dt = 0.02
+        self.kE = 0
+
         self.position_pub = self.create_publisher(Float64,'mass_position',10)
         self.timer = self.create_timer(self.dt,self.update_physics)
         self.get_logger().info('Mass-spring phyics node started')
