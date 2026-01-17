@@ -1,0 +1,18 @@
+[0.398s] Invoking command in '/home/meel/Git/AISD_Trainee_Module/build/shm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meel/Git/AISD_Trainee_Module/build/shm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/meel/Git/AISD_Trainee_Module/build/shm/build --no-deps symlink_data
+[0.544s] running develop
+[0.636s] running egg_info
+[0.636s] writing shm.egg-info/PKG-INFO
+[0.636s] writing dependency_links to shm.egg-info/dependency_links.txt
+[0.636s] writing entry points to shm.egg-info/entry_points.txt
+[0.636s] writing requirements to shm.egg-info/requires.txt
+[0.636s] writing top-level names to shm.egg-info/top_level.txt
+[0.637s] reading manifest file 'shm.egg-info/SOURCES.txt'
+[0.637s] writing manifest file 'shm.egg-info/SOURCES.txt'
+[0.638s] running build_ext
+[0.638s] Creating /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm.egg-link (link to .)
+[0.639s] Installing marker script to /home/meel/Git/AISD_Trainee_Module/install/shm/lib/shm
+[0.639s] Installing phy script to /home/meel/Git/AISD_Trainee_Module/install/shm/lib/shm
+[0.639s] 
+[0.640s] Installed /home/meel/Git/AISD_Trainee_Module/build/shm
+[0.640s] running symlink_data
+[0.659s] Invoked command in '/home/meel/Git/AISD_Trainee_Module/build/shm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meel/Git/AISD_Trainee_Module/build/shm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/meel/Git/AISD_Trainee_Module/build/shm/build --no-deps symlink_data

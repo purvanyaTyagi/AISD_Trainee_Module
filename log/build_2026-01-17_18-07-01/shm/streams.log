@@ -1,0 +1,41 @@
+[0.386s] Invoking command in '/home/meel/Git/AISD_Trainee_Module/src/shm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meel/Git/AISD_Trainee_Module/build/shm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/shm build --build-base /home/meel/Git/AISD_Trainee_Module/build/shm/build install --record /home/meel/Git/AISD_Trainee_Module/build/shm/install.log --single-version-externally-managed install_data
+[0.479s] running egg_info
+[0.479s] creating ../../build/shm/shm.egg-info
+[0.479s] writing ../../build/shm/shm.egg-info/PKG-INFO
+[0.479s] writing dependency_links to ../../build/shm/shm.egg-info/dependency_links.txt
+[0.479s] writing entry points to ../../build/shm/shm.egg-info/entry_points.txt
+[0.479s] writing requirements to ../../build/shm/shm.egg-info/requires.txt
+[0.479s] writing top-level names to ../../build/shm/shm.egg-info/top_level.txt
+[0.479s] writing manifest file '../../build/shm/shm.egg-info/SOURCES.txt'
+[0.480s] reading manifest file '../../build/shm/shm.egg-info/SOURCES.txt'
+[0.480s] adding license file 'LICENSE'
+[0.480s] writing manifest file '../../build/shm/shm.egg-info/SOURCES.txt'
+[0.480s] running build
+[0.480s] running build_py
+[0.480s] creating /home/meel/Git/AISD_Trainee_Module/build/shm/build
+[0.480s] creating /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib
+[0.480s] creating /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm
+[0.481s] copying shm/__init__.py -> /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm
+[0.481s] copying shm/physics.py -> /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm
+[0.481s] copying shm/marker_node.py -> /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm
+[0.481s] running install
+[0.481s] running install_lib
+[0.481s] creating /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm
+[0.481s] copying /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm/__init__.py -> /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm
+[0.481s] copying /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm/physics.py -> /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm
+[0.481s] copying /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm/marker_node.py -> /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm
+[0.481s] byte-compiling /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm/__init__.py to __init__.cpython-310.pyc
+[0.482s] byte-compiling /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm/physics.py to physics.cpython-310.pyc
+[0.482s] byte-compiling /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm/marker_node.py to marker_node.cpython-310.pyc
+[0.482s] running install_data
+[0.482s] creating /home/meel/Git/AISD_Trainee_Module/install/shm/share/ament_index
+[0.482s] creating /home/meel/Git/AISD_Trainee_Module/install/shm/share/ament_index/resource_index
+[0.482s] creating /home/meel/Git/AISD_Trainee_Module/install/shm/share/ament_index/resource_index/packages
+[0.482s] copying resource/shm -> /home/meel/Git/AISD_Trainee_Module/install/shm/share/ament_index/resource_index/packages
+[0.482s] copying package.xml -> /home/meel/Git/AISD_Trainee_Module/install/shm/share/shm
+[0.482s] running install_egg_info
+[0.483s] Copying ../../build/shm/shm.egg-info to /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm-0.0.0-py3.10.egg-info
+[0.483s] running install_scripts
+[0.491s] Installing phy = shm.physics:mainmarker script to /home/meel/Git/AISD_Trainee_Module/install/shm/lib/shm
+[0.491s] writing list of installed files to '/home/meel/Git/AISD_Trainee_Module/build/shm/install.log'
+[0.501s] Invoked command in '/home/meel/Git/AISD_Trainee_Module/src/shm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meel/Git/AISD_Trainee_Module/build/shm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/shm build --build-base /home/meel/Git/AISD_Trainee_Module/build/shm/build install --record /home/meel/Git/AISD_Trainee_Module/build/shm/install.log --single-version-externally-managed install_data

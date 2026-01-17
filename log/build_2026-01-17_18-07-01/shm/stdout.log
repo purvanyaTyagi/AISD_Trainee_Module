@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/shm/shm.egg-info
+writing ../../build/shm/shm.egg-info/PKG-INFO
+writing dependency_links to ../../build/shm/shm.egg-info/dependency_links.txt
+writing entry points to ../../build/shm/shm.egg-info/entry_points.txt
+writing requirements to ../../build/shm/shm.egg-info/requires.txt
+writing top-level names to ../../build/shm/shm.egg-info/top_level.txt
+writing manifest file '../../build/shm/shm.egg-info/SOURCES.txt'
+reading manifest file '../../build/shm/shm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/shm/shm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/meel/Git/AISD_Trainee_Module/build/shm/build
+creating /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib
+creating /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm
+copying shm/__init__.py -> /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm
+copying shm/physics.py -> /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm
+copying shm/marker_node.py -> /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm
+running install
+running install_lib
+creating /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm
+copying /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm/__init__.py -> /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm
+copying /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm/physics.py -> /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm
+copying /home/meel/Git/AISD_Trainee_Module/build/shm/build/lib/shm/marker_node.py -> /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm
+byte-compiling /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm/physics.py to physics.cpython-310.pyc
+byte-compiling /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm/marker_node.py to marker_node.cpython-310.pyc
+running install_data
+creating /home/meel/Git/AISD_Trainee_Module/install/shm/share/ament_index
+creating /home/meel/Git/AISD_Trainee_Module/install/shm/share/ament_index/resource_index
+creating /home/meel/Git/AISD_Trainee_Module/install/shm/share/ament_index/resource_index/packages
+copying resource/shm -> /home/meel/Git/AISD_Trainee_Module/install/shm/share/ament_index/resource_index/packages
+copying package.xml -> /home/meel/Git/AISD_Trainee_Module/install/shm/share/shm
+running install_egg_info
+Copying ../../build/shm/shm.egg-info to /home/meel/Git/AISD_Trainee_Module/install/shm/lib/python3.10/site-packages/shm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing phy = shm.physics:mainmarker script to /home/meel/Git/AISD_Trainee_Module/install/shm/lib/shm
+writing list of installed files to '/home/meel/Git/AISD_Trainee_Module/build/shm/install.log'

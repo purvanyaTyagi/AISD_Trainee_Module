@@ -1,0 +1,1 @@
+/home/meel/Git/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/local_setup.bash
