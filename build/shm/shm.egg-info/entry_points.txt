@@ -1,4 +1,0 @@
-[console_scripts]
-marker = shm.marker_node:main
-phy = shm.physics:main
-
