@@ -11,6 +11,8 @@ find_package(rclcpp REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(example_interfaces REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -24,8 +26,31 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-add_executable(spring_system src/spring_system.cpp)
-ament_target_dependencies(spring_system rclcpp visualization_msgs)
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "srv/ParmSet.srv"
+)
 
-install(TARGETS spring_system DESTINATION lib/${PROJECT_NAME})
+add_executable(damp_spring_sys src/damp_spring_sys.cpp)
+ament_target_dependencies(damp_spring_sys rclcpp visualization_msgs std_msgs 
+   example_interfaces)
+add_executable(spring_sys_visualize src/spring_sys_visualize.cpp)
+ament_target_dependencies(spring_sys_visualize rclcpp visualization_msgs std_msgs 
+   example_interfaces)
+add_executable(parm_tune src/parm_tune.cpp)
+ament_target_dependencies(parm_tune rclcpp visualization_msgs)
+
+rosidl_target_interfaces(parm_tune
+  ${PROJECT_NAME} "rosidl_typesupport_cpp"
+)
+
+rosidl_target_interfaces(spring_sys_visualize
+  ${PROJECT_NAME} "rosidl_typesupport_cpp"
+)
+
+
+install(TARGETS damp_spring_sys spring_sys_visualize parm_tune DESTINATION lib/${PROJECT_NAME})
+
+
+ament_export_dependencies(rosidl_default_runtime)
 ament_package()
+

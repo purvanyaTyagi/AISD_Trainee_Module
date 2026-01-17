@@ -1,6 +1,0 @@
-Invoking command in '/home/poochandi/ros2_ws/src/build/spring_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/poochandi/ros2_ws/src/spring_system -DCMAKE_INSTALL_PREFIX=/home/poochandi/ros2_ws/src/install/spring_system
-Invoked command in '/home/poochandi/ros2_ws/src/build/spring_system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/poochandi/ros2_ws/src/spring_system -DCMAKE_INSTALL_PREFIX=/home/poochandi/ros2_ws/src/install/spring_system
-Invoking command in '/home/poochandi/ros2_ws/src/build/spring_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/poochandi/ros2_ws/src/build/spring_system -- -j12 -l12
-Invoked command in '/home/poochandi/ros2_ws/src/build/spring_system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/poochandi/ros2_ws/src/build/spring_system -- -j12 -l12
-Invoking command in '/home/poochandi/ros2_ws/src/build/spring_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/poochandi/ros2_ws/src/build/spring_system
-Invoked command in '/home/poochandi/ros2_ws/src/build/spring_system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/poochandi/ros2_ws/src/build/spring_system
