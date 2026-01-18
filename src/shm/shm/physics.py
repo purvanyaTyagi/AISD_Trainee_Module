@@ -1,26 +1,34 @@
 import rclpy
 from rclpy.node import Node
-from example_interfaces.srv import SetBool
+from rclpy.parameter import Parameter
+from rcl_interfaces.msg import SetParametersResult
 from std_msgs.msg import Float64
 
 class MassSpringPhysics(Node):
     def __init__(self):
         super().__init__('mass_spring_physics')
-        self.k = 10.0
-        self.b = 0.1
+
+        self.declare_parameter('k',10.0)
+        self.declare_parameter('b',0.0)
+        self.declare_parameter('F',0.0)
+
+        self.k = self.get_parameter('k').value
+        self.b = self.get_parameter('b').value
+        self.external_force = self.get_parameter('F').value
+
+        self.add_on_set_parameters_callback(self.on_param_change)
+
         self.m = 1.0
         self.x = 1.0
         self.v = 0.0
         self.dt = 0.02
         self.kE = 0
         self.pE = 0
-        self.external_force = 0.0
 
         self.position_pub = self.create_publisher(Float64,'mass_position',10)
         self.velocity_pub = self.create_publisher(Float64,'velocity',10)
         self.ke_pub = self.create_publisher(Float64,'kinetic_energy',10)
         self.pe_pub = self.create_publisher(Float64,'potential_energy',10)
-        self.force_service = self.create_service(SetBool,'apply_force',self.apply_force_callback)
         self.timer = self.create_timer(self.dt,self.update_physics)
         self.get_logger().info('Mass-spring phyics node started')
     
@@ -48,15 +56,22 @@ class MassSpringPhysics(Node):
         msg.data = self.pE
         self.pe_pub.publish(msg)
 
-    def apply_force_callback(self,request,response):
-        if request.data:
-            self.external_force += 1000
-            response.success = True
-            response.message = "Applied external force"
-        else:
-            response.success = False
-            response.message = "Force not applied"
-        return response
+    def on_param_change(self,params):
+        for param in params:
+            if param.name == 'k':
+                if param.value <= 0.0:
+                    return SetParametersResult(successful=False)
+                self.k = param.value
+                self.get_logger().info(f"Updated k = {self.k}")
+            elif param.name == 'b':
+                if param.value <0.0:
+                    return SetParametersResult(successful=False)
+                self.b = param.value
+                self.get_logger().info(f"Updated b = {self.b}")
+            elif param.name == 'F':
+                self.external_force = param.value
+                self.get_logger().info(f"Applied external force F = {param.value}")
+        return SetParametersResult(successful=True)
 
 def main(args=None):
     rclpy.init(args=args)
