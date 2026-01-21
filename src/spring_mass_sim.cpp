@@ -27,12 +27,14 @@ private:
   double b = 0.6;
 
   // -------- State --------
-  double x = -5.0;   // initial displacement (negative extreme)
+  double x = 2.0;   // initial displacement (positive extreme)
   double v = 0.0;
   double dt = 0.01;
 
   // -------- Geometry --------
   double ball_radius = 0.08;
+  double anchor_x = -3.0;   // fixed block position
+
 
   // -------- ROS --------
   rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr marker_pub_;
@@ -60,14 +62,15 @@ private:
     visualization_msgs::msg::Marker mean;
     mean.header.frame_id = "world";
     mean.header.stamp = now();
-    mean.ns = "mean";
+    mean.ns = "anchor";
     mean.id = 1;
     mean.type = visualization_msgs::msg::Marker::CUBE;
     mean.action = visualization_msgs::msg::Marker::ADD;
-    mean.pose.position.x = 0.0;
+    mean.pose.position.x = anchor_x;
+    mean.scale.x = mean.scale.y = mean.scale.z= 0.16;
     mean.pose.position.y = 0.0;
-    mean.pose.position.z = ball_radius;
-    mean.scale.x = mean.scale.y = mean.scale.z = 0.025;
+    mean.pose.position.z = mean.scale.z/2.0;
+    
     mean.color.r = 0.0;
     mean.color.g = 1.0;
     mean.color.b = 0.0;
@@ -107,7 +110,7 @@ private:
     spring.color.a = 1.0;
 
     geometry_msgs::msg::Point p1, p2;
-    p1.x = 0.0;
+    p1.x = anchor_x;
     p1.y = 0.0;
     p1.z = ball_radius;
 
