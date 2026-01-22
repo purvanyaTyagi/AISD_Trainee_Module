@@ -15,14 +15,16 @@ def generate_launch_description():
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
+            output='screen',
             parameters=[{
                 'robot_description': robot_description_config.toxml()
             }]
         ),
 
         Node(
-            package='joint_state_publisher',
-            executable='joint_state_publisher'
+            package='joint_state_py',
+            executable='joint_state_node',
+            output = 'screen'
         ),
 
         Node(
