@@ -36,8 +36,13 @@
       </geometry>
       <material name="steve_shirt" />
     </visual>
+    <collision>
+      <geometry>
+        <box size="0.2 0.4 0.8" />
+      </geometry>
+    </collision>
   </link>
-
+  <!--Head-->
   <link name="head">
     <visual>
       <geometry>
@@ -45,6 +50,11 @@
       </geometry>
       <material name="steve_skin" />
     </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.18" />
+      </geometry>
+    </collision>
     <visual>
       <origin xyz="-0.16 0.06 0.04" />
       <geometry>
@@ -60,7 +70,7 @@
       <material name="white" />
     </visual>
   </link>
-
+  <!--Legs-->
   <link name="left_leg">
     <visual>
       <geometry>
@@ -68,6 +78,11 @@
       </geometry>
       <material name="steve_pants" />
     </visual>
+    <collision>
+      <geometry>
+        <box size="0.2 0.18 0.8" />
+      </geometry>
+    </collision>
   </link>
 
   <link name="right_leg">
@@ -77,8 +92,13 @@
       </geometry>
       <material name="steve_pants" />
     </visual>
+    <collision>
+      <geometry>
+        <box size="0.2 0.18 0.8" />
+      </geometry>
+    </collision>
   </link>
-
+  <!--Arms-->
   <link name="left_arm">
     <visual>
       <origin xyz="0 0 -0.3" />
@@ -87,6 +107,12 @@
       </geometry>
       <material name="steve_skin" />
     </visual>
+    <collision>
+      <origin xyz="0 0 -0.3" />
+      <geometry>
+        <cylinder radius="0.1" length="0.6" />
+      </geometry>
+    </collision>
   </link>
 
   <link name="right_arm">
@@ -97,8 +123,14 @@
       </geometry>
       <material name="steve_skin" />
     </visual>
+    <collision>
+      <origin xyz="0 0 -0.3" />
+      <geometry>
+        <cylinder radius="0.1" length="0.6" />
+      </geometry>
+    </collision>
   </link>
-
+  <!--Joints-->
   <joint name="left_leg_joint" type="fixed">
     <parent link="torso" />
     <child link="left_leg" />
@@ -131,7 +163,8 @@
     <axis xyz="0 0 1" />
     <limit lower="-0.785" upper="0.785" effort="2" velocity="0.4" />
   </joint>
-
+  <!--Learning
+  to use xacro macros -->
   <xacro:macro name="wheel_plate_with_wheels" params="prefix parent side">
 
     <link name="${prefix}_plate">
@@ -141,8 +174,14 @@
         </geometry>
         <material name="steve_wheel_plate" />
       </visual>
+      <collision>
+        <geometry>
+          <box size="0.6 0.18 0.2" />
+        </geometry>
+      </collision>
     </link>
 
+    <!--Wheel-->
     <link name="${prefix}_wheel_back">
       <visual>
         <origin rpy="1.5708 0 0" />
@@ -151,6 +190,14 @@
         </geometry>
         <material name="steve_wheel" />
       </visual>
+      <collision>
+        <origin rpy="1.5708 0 0" />
+        <geometry>
+          <cylinder radius="0.2" length="0.05" />
+        </geometry>
+        <material name="steve_wheel" />
+      </collision>
+      <!--Marker-->
       <visual>
         <origin xyz="-0.19 ${side*0.05} 0" rpy="1.5708 0 0" />
         <geometry>
@@ -167,6 +214,14 @@
         </geometry>
         <material name="steve_wheel" />
       </visual>
+      <collision>
+        <origin rpy="1.5708 0 0" />
+        <geometry>
+          <cylinder radius="0.17" length="0.05" />
+        </geometry>
+        <material name="steve_wheel" />
+      </collision>
+      <!--Marker-->
       <visual>
         <origin xyz="-0.16 ${side*0.05} 0" rpy="1.5708 0 0" />
         <geometry>
