@@ -1,5 +1,0 @@
-float64 spring_stiffness
-float64 damping_coefficient
----
-bool success
-string message
