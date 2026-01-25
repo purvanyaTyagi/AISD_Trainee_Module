@@ -1,0 +1,2 @@
+<parent link="sensor_box"/>
+<origin xyz="0 0 0.02" rpy="0 0 0"/>
