@@ -1,0 +1,38 @@
+cmake_minimum_required(VERSION 3.8)
+project(my_bot_description)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# 1. Find Dependencies
+find_package(ament_cmake REQUIRED)
+# (Optional) specific ROS dependencies can go here
+
+# 2. Install Python Scripts (Task 2 Control)
+install(PROGRAMS
+  scripts/wasd_teleop.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# 3. Install Launch and URDF directories
+install(DIRECTORY
+  launch
+  urdf
+  DESTINATION share/${PROJECT_NAME}
+)
+
+# 4. Testing (This was causing your error!)
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # comment the line when a copyright and license is added to all source files
+  set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips the linter which checks for exact compliance with the license
+  # comment the line when a compliance document is added to the package
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+# 5. Package Declaration 
+ament_package()
