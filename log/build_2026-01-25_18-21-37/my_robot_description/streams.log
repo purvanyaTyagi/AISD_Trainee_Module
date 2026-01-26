@@ -1,0 +1,37 @@
+[0.006s] Invoking command in '/home/pratik/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pratik/ros2_ws/build/my_robot_description -- -j20 -l20
+[0.025s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.118s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.119s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.141s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.147s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.152s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.167s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.191s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.270s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.316s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.316s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.325s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.335s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.389s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.389s] -- Added test 'lint_cmake' to check CMake code style
+[0.389s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.389s] -- Added test 'xmllint' to check XML markup files
+[0.390s] -- Configuring done
+[0.393s] -- Generating done
+[0.394s] -- Build files have been written to: /home/pratik/ros2_ws/build/my_robot_description
+[0.413s] Invoked command in '/home/pratik/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pratik/ros2_ws/build/my_robot_description -- -j20 -l20
+[0.420s] Invoking command in '/home/pratik/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pratik/ros2_ws/build/my_robot_description
+[0.427s] -- Install configuration: ""
+[0.427s] -- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/urdf
+[0.427s] -- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro
+[0.427s] -- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/launch
+[0.427s] -- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_gazebo_rviz.launch.py
+[0.428s] [31mCMake Error at cmake_install.cmake:54 (file):
+[0.428s]   file INSTALL cannot find
+[0.428s]   "/home/pratik/ros2_ws/src/my_robot_description/scripts/robot_controller.py":
+[0.428s]   No such file or directory.
+[0.428s] 
+[0.428s] [0m
+[0.429s] Invoked command in '/home/pratik/ros2_ws/build/my_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pratik/ros2_ws/build/my_robot_description
