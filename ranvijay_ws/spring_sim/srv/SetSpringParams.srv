@@ -1,0 +1,5 @@
+float64 damping
+float64 stiffness
+---
+bool success
+string message
