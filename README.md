@@ -35,3 +35,4 @@ ros2 run rviz2 rviz2
 ```
 The white conical lines denote the camera and the blue lines denote the LiDAR
 
+Checkpoint 2 has a separate folder containing files specific to it
