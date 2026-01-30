@@ -7,6 +7,16 @@ import os
 
 from ament_index_python.packages import get_package_share_directory
 
+#Model Loading 
+from launch_ros.actions import Node
+
+spawn_entity = Node(
+    package='gazebo_ros', 
+    executable='spawn_entity.py',
+    arguments=['-entity', 'my_robot', '-topic', 'robot_description'],
+    output='screen'
+)
+
 def generate_launch_description():
 
     pkg_path = get_package_share_directory('my_robot_description')
