@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mass_spring_cp3</name>
+  <version>0.0.0</version>
+  <description>Mass spring system with parameter tuning services</description>
+
+  <maintainer email="prakhar@todo.todo">prakhar</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>visualization_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <exec_depend>rviz2</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
