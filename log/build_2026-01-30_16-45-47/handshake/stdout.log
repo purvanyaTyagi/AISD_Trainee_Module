@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/handshake/handshake.egg-info
+writing ../build/handshake/handshake.egg-info/PKG-INFO
+writing dependency_links to ../build/handshake/handshake.egg-info/dependency_links.txt
+writing entry points to ../build/handshake/handshake.egg-info/entry_points.txt
+writing requirements to ../build/handshake/handshake.egg-info/requires.txt
+writing top-level names to ../build/handshake/handshake.egg-info/top_level.txt
+writing manifest file '../build/handshake/handshake.egg-info/SOURCES.txt'
+reading manifest file '../build/handshake/handshake.egg-info/SOURCES.txt'
+writing manifest file '../build/handshake/handshake.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build
+creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib
+creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake
+copying handshake/AI.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake
+copying handshake/VCU.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake
+copying handshake/__init__.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake
+running install
+running install_lib
+creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake
+copying /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake/AI.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake
+copying /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake/VCU.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake
+copying /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake/__init__.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake
+byte-compiling /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake/AI.py to AI.cpython-310.pyc
+byte-compiling /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake/VCU.py to VCU.cpython-310.pyc
+byte-compiling /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/ament_index
+creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/ament_index/resource_index
+creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/ament_index/resource_index/packages
+copying resource/handshake -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/ament_index/resource_index/packages
+copying package.xml -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake
+running install_egg_info
+Copying ../build/handshake/handshake.egg-info to /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake-0.0.0-py3.10.egg-info
+running install_scripts
+Installing AI script to /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/handshake
+Installing VCU script to /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/handshake
+writing list of installed files to '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/install.log'

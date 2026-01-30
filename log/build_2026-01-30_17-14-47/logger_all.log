@@ -1,0 +1,313 @@
+[0.092s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.092s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff95bddcc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff95d72aa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff95d72aa0>>)
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.242s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(handshake) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(handshake) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(handshake) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(handshake) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(handshake) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(handshake) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(handshake) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(handshake) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(handshake) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'handshake' with type 'ros.ament_python' and name 'handshake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(shm_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(shm_cpp) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(shm_cpp) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(shm_cpp) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(shm_cpp) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(shm_cpp) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(shm_cpp) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(shm_cpp) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(shm_cpp) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'shm_cpp' with type 'ros.ament_cmake' and name 'shm_cpp'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tss8117/ros2_ws/install
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/tss8117/ros2_ws/src/install
+[0.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/humble
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'handshake' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'handshake' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'handshake' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'handshake' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'handshake' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'handshake' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'handshake' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'handshake' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'handshake' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'handshake' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake', 'merge_install': False, 'path': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/handshake', 'symlink_install': False, 'test_result_base': None}
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller', 'merge_install': False, 'path': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/my_robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description', 'merge_install': False, 'path': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'shm_cpp' build argument 'cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'shm_cpp' build argument 'cmake_target' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'shm_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'shm_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'shm_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'shm_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'shm_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'shm_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'shm_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.334s] DEBUG:colcon.colcon_core.verb:Building package 'shm_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp', 'merge_install': False, 'path': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.334s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.335s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/handshake' with build type 'ament_python'
+[0.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('handshake', 'ament_prefix_path')
+[0.337s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/hook/ament_prefix_path.ps1'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/hook/ament_prefix_path.dsv'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/hook/ament_prefix_path.sh'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.343s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/my_robot_controller' with build type 'ament_python'
+[0.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src/my_robot_description' with build type 'ament_cmake'
+[0.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src/my_robot_description'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp' with build type 'ament_cmake'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp'
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.601s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/handshake'
+[0.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.823s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/my_robot_controller'
+[0.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble /usr/bin/cmake --build /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description -- -j4 -l4
+[0.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble /usr/bin/cmake --build /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp -- -j4 -l4
+[0.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble /usr/bin/cmake --build /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description -- -j4 -l4
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble /usr/bin/cmake --install /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description
+[0.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description' for CMake module files
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description' for CMake config files
+[0.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/bin'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/lib/python3.10/site-packages'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/bin'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.sh'
+[0.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble /usr/bin/cmake --install /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.bash'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[0.922s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description' for CMake module files
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description' for CMake config files
+[0.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/bin'
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/lib/python3.10/site-packages'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/bin'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.sh'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.bash'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/my_robot_controller': PYTHONPATH=/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build install --record /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[1.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/handshake': PYTHONPATH=/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/handshake build --build-base /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build install --record /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/install.log --single-version-externally-managed install_data
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble /usr/bin/cmake --build /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp -- -j4 -l4
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble /usr/bin/cmake --install /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp
+[1.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shm_cpp)
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp' for CMake module files
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp' for CMake config files
+[1.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('shm_cpp', 'cmake_prefix_path')
+[1.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/cmake_prefix_path.ps1'
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/cmake_prefix_path.dsv'
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/cmake_prefix_path.sh'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib'
+[1.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('shm_cpp', 'ld_library_path_lib')
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/ld_library_path_lib.ps1'
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/ld_library_path_lib.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/ld_library_path_lib.sh'
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/bin'
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/pkgconfig/shm_cpp.pc'
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/python3.10/site-packages'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/bin'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.dsv'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.sh'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.bash'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.zsh'
+[1.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/colcon-core/packages/shm_cpp)
+[1.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shm_cpp)
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp' for CMake module files
+[1.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble /usr/bin/cmake --install /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp' for CMake config files
+[1.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('shm_cpp', 'cmake_prefix_path')
+[1.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/cmake_prefix_path.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/cmake_prefix_path.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/cmake_prefix_path.sh'
+[1.414s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib'
+[1.414s] Level 1:colcon.colcon_core.shell:create_environment_hook('shm_cpp', 'ld_library_path_lib')
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/ld_library_path_lib.ps1'
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/ld_library_path_lib.dsv'
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/hook/ld_library_path_lib.sh'
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/bin'
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/pkgconfig/shm_cpp.pc'
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/python3.10/site-packages'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/bin'
+[1.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.ps1'
+[1.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.dsv'
+[1.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.sh'
+[1.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.bash'
+[1.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.zsh'
+[1.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/colcon-core/packages/shm_cpp)
+[1.621s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller' for CMake module files
+[1.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/my_robot_controller' returned '0': PYTHONPATH=/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build install --record /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller' for CMake config files
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/bin'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/pkgconfig/my_robot_controller.pc'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages'
+[1.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath')
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.ps1'
+[1.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.dsv'
+[1.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.sh'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/bin'
+[1.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_controller)
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/package.ps1'
+[1.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/package.dsv'
+[1.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/package.sh'
+[1.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/package.bash'
+[1.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller/package.zsh'
+[1.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/colcon-core/packages/my_robot_controller)
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake' for CMake module files
+[1.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/handshake' returned '0': PYTHONPATH=/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/handshake build --build-base /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build install --record /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/install.log --single-version-externally-managed install_data
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake' for CMake config files
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/bin'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/pkgconfig/handshake.pc'
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages'
+[1.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('handshake', 'pythonpath')
+[1.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/hook/pythonpath.ps1'
+[1.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/hook/pythonpath.dsv'
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/hook/pythonpath.sh'
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/bin'
+[1.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(handshake)
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/package.ps1'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/package.dsv'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/package.sh'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/package.bash'
+[1.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake/package.zsh'
+[1.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/colcon-core/packages/handshake)
+[1.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.637s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.642s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.642s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.642s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.658s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.659s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/local_setup.ps1'
+[1.660s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/_local_setup_util_ps1.py'
+[1.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/setup.ps1'
+[1.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/local_setup.sh'
+[1.663s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/_local_setup_util_sh.py'
+[1.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/setup.sh'
+[1.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/local_setup.bash'
+[1.666s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/setup.bash'
+[1.670s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/local_setup.zsh'
+[1.671s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/setup.zsh'

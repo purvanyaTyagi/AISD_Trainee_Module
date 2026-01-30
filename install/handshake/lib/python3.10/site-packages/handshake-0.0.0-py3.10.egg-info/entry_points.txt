@@ -1,0 +1,4 @@
+[console_scripts]
+AI = handshake.AI:main
+VCU = handshake.VCU:main
+

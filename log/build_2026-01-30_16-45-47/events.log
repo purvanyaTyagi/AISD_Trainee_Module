@@ -1,0 +1,526 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (handshake) JobQueued: {'identifier': 'handshake', 'dependencies': OrderedDict()}
+[0.000253] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000279] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.000293] (shm_cpp) JobQueued: {'identifier': 'shm_cpp', 'dependencies': OrderedDict()}
+[0.000307] (handshake) JobStarted: {'identifier': 'handshake'}
+[0.011005] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.015405] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.019212] (shm_cpp) JobStarted: {'identifier': 'shm_cpp'}
+[0.099218] (-) TimerEvent: {}
+[0.204102] (-) TimerEvent: {}
+[0.304384] (-) TimerEvent: {}
+[0.409244] (-) TimerEvent: {}
+[0.488251] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.490287] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'build'}
+[0.490537] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description', '--', '-j4', '-l4'], 'cwd': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tss8117'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tss8117/ros2_ws/install/shm_cpp/lib:/home/tss8117/ros2_ws/src/install/shm_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tss8117'), ('OLDPWD', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2249'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tss8117/ros2_ws/install:/home/tss8117/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tss8117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tss8117'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntutss:@/tmp/.ICE-unix/2226,unix/ubuntutss:/tmp/.ICE-unix/2226'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/530a8c3c_6b68_40ba_8f69_7dad5aa0ca47'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LPFKJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tss8117/ros2_ws/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/handshake/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/SHM/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble')]), 'shell': False}
+[0.495016] (shm_cpp) JobProgress: {'identifier': 'shm_cpp', 'progress': 'cmake'}
+[0.496480] (shm_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp', '-DCMAKE_INSTALL_PREFIX=/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp'], 'cwd': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tss8117'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tss8117/ros2_ws/install/shm_cpp/lib:/home/tss8117/ros2_ws/src/install/shm_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tss8117'), ('OLDPWD', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2249'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tss8117/ros2_ws/install:/home/tss8117/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tss8117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tss8117'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntutss:@/tmp/.ICE-unix/2226,unix/ubuntutss:/tmp/.ICE-unix/2226'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/530a8c3c_6b68_40ba_8f69_7dad5aa0ca47'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LPFKJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tss8117/ros2_ws/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/handshake/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/SHM/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble')]), 'shell': False}
+[0.509365] (-) TimerEvent: {}
+[0.586732] (my_robot_description) CommandEnded: {'returncode': 0}
+[0.588721] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'install'}
+[0.597212] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description'], 'cwd': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tss8117'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tss8117/ros2_ws/install/shm_cpp/lib:/home/tss8117/ros2_ws/src/install/shm_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tss8117'), ('OLDPWD', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2249'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tss8117/ros2_ws/install:/home/tss8117/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tss8117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tss8117'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntutss:@/tmp/.ICE-unix/2226,unix/ubuntutss:/tmp/.ICE-unix/2226'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/530a8c3c_6b68_40ba_8f69_7dad5aa0ca47'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LPFKJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tss8117/ros2_ws/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/handshake/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/SHM/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble')]), 'shell': False}
+[0.604602] (my_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.605261] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/launch\n'}
+[0.605447] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/launch/display_rviz.launch.py\n'}
+[0.605569] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/urdf\n'}
+[0.606851] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro\n'}
+[0.608236] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description\n'}
+[0.608944] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description\n'}
+[0.609404] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh\n'}
+[0.609475] (-) TimerEvent: {}
+[0.609677] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv\n'}
+[0.609778] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/environment/path.sh\n'}
+[0.610853] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/environment/path.dsv\n'}
+[0.611326] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/local_setup.bash\n'}
+[0.611830] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/local_setup.sh\n'}
+[0.612231] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/local_setup.zsh\n'}
+[0.612683] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/local_setup.dsv\n'}
+[0.613197] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.dsv\n'}
+[0.614997] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description\n'}
+[0.615415] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake\n'}
+[0.615818] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake\n'}
+[0.616250] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description/share/my_robot_description/package.xml\n'}
+[0.618824] (my_robot_description) CommandEnded: {'returncode': 0}
+[0.644639] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 0}
+[0.709603] (-) TimerEvent: {}
+[0.725581] (shm_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.809766] (-) TimerEvent: {}
+[0.897103] (shm_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.909968] (-) TimerEvent: {}
+[0.911738] (shm_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.993010] (shm_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.998597] (shm_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.998982] (shm_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.000364] (shm_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.005203] (shm_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.010059] (-) TimerEvent: {}
+[1.053400] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/my_robot_controller', 'build', '--build-base', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build', 'install', '--record', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tss8117', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tss8117/ros2_ws/install/shm_cpp/lib:/home/tss8117/ros2_ws/src/install/shm_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tss8117', 'OLDPWD': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2249', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tss8117/ros2_ws/install:/home/tss8117/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tss8117', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tss8117', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntutss:@/tmp/.ICE-unix/2226,unix/ubuntutss:/tmp/.ICE-unix/2226', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/530a8c3c_6b68_40ba_8f69_7dad5aa0ca47', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LPFKJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages:/home/tss8117/ros2_ws/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/handshake/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/SHM/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp'}, 'shell': False}
+[1.058637] (handshake) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/handshake', 'build', '--build-base', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build', 'install', '--record', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/handshake', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tss8117', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tss8117/ros2_ws/install/shm_cpp/lib:/home/tss8117/ros2_ws/src/install/shm_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tss8117', 'OLDPWD': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2249', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tss8117/ros2_ws/install:/home/tss8117/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tss8117', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tss8117', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntutss:@/tmp/.ICE-unix/2226,unix/ubuntutss:/tmp/.ICE-unix/2226', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/530a8c3c_6b68_40ba_8f69_7dad5aa0ca47', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LPFKJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages:/home/tss8117/ros2_ws/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/handshake/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/SHM/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp'}, 'shell': False}
+[1.098476] (shm_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.108274] (shm_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.108571] (shm_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.110150] (-) TimerEvent: {}
+[1.112571] (shm_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.125416] (shm_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.210300] (-) TimerEvent: {}
+[1.298141] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.298998] (my_robot_controller) StdoutLine: {'line': b'creating ../build/my_robot_controller/my_robot_controller.egg-info\n'}
+[1.299076] (my_robot_controller) StdoutLine: {'line': b'writing ../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[1.299184] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[1.299458] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[1.299512] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[1.299561] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[1.299609] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[1.300650] (handshake) StdoutLine: {'line': b'running egg_info\n'}
+[1.301309] (handshake) StdoutLine: {'line': b'creating ../build/handshake/handshake.egg-info\n'}
+[1.301474] (handshake) StdoutLine: {'line': b'writing ../build/handshake/handshake.egg-info/PKG-INFO\n'}
+[1.301680] (handshake) StdoutLine: {'line': b'writing dependency_links to ../build/handshake/handshake.egg-info/dependency_links.txt\n'}
+[1.301792] (handshake) StdoutLine: {'line': b'writing entry points to ../build/handshake/handshake.egg-info/entry_points.txt\n'}
+[1.301904] (handshake) StdoutLine: {'line': b'writing requirements to ../build/handshake/handshake.egg-info/requires.txt\n'}
+[1.301957] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[1.302026] (handshake) StdoutLine: {'line': b'writing top-level names to ../build/handshake/handshake.egg-info/top_level.txt\n'}
+[1.302134] (handshake) StdoutLine: {'line': b"writing manifest file '../build/handshake/handshake.egg-info/SOURCES.txt'\n"}
+[1.302595] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[1.302789] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[1.302967] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[1.303069] (my_robot_controller) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build\n'}
+[1.303117] (my_robot_controller) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build/lib\n'}
+[1.303186] (my_robot_controller) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.303237] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/pose_subscriber.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.304726] (handshake) StdoutLine: {'line': b"reading manifest file '../build/handshake/handshake.egg-info/SOURCES.txt'\n"}
+[1.304919] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/__init__.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.305029] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/draw_circle.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.305095] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/my_first_node.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.305182] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[1.305345] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.305421] (handshake) StdoutLine: {'line': b"writing manifest file '../build/handshake/handshake.egg-info/SOURCES.txt'\n"}
+[1.305610] (handshake) StdoutLine: {'line': b'running build\n'}
+[1.305666] (handshake) StdoutLine: {'line': b'running build_py\n'}
+[1.305881] (handshake) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build\n'}
+[1.305972] (handshake) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib\n'}
+[1.306029] (handshake) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake\n'}
+[1.306165] (handshake) StdoutLine: {'line': b'copying handshake/AI.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake\n'}
+[1.306371] (my_robot_controller) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[1.306519] (my_robot_controller) StdoutLine: {'line': b'copying /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build/lib/my_robot_controller/pose_subscriber.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[1.306587] (handshake) StdoutLine: {'line': b'copying handshake/VCU.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake\n'}
+[1.306754] (my_robot_controller) StdoutLine: {'line': b'copying /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[1.306861] (my_robot_controller) StdoutLine: {'line': b'copying /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[1.307034] (handshake) StdoutLine: {'line': b'copying handshake/__init__.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake\n'}
+[1.307101] (my_robot_controller) StdoutLine: {'line': b'copying /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[1.307580] (handshake) StdoutLine: {'line': b'running install\n'}
+[1.307638] (handshake) StdoutLine: {'line': b'running install_lib\n'}
+[1.307689] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc\n'}
+[1.307977] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[1.308148] (handshake) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake\n'}
+[1.308316] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc\n'}
+[1.308430] (handshake) StdoutLine: {'line': b'copying /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake/AI.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake\n'}
+[1.308533] (shm_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.308593] (handshake) StdoutLine: {'line': b'copying /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake/VCU.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake\n'}
+[1.308642] (handshake) StdoutLine: {'line': b'copying /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/build/lib/handshake/__init__.py -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake\n'}
+[1.308692] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[1.308782] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[1.309147] (handshake) StdoutLine: {'line': b'byte-compiling /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake/AI.py to AI.cpython-310.pyc\n'}
+[1.309236] (my_robot_controller) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/ament_index\n'}
+[1.309528] (my_robot_controller) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/ament_index/resource_index\n'}
+[1.309771] (my_robot_controller) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[1.309843] (my_robot_controller) StdoutLine: {'line': b'copying resource/my_robot_controller -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[1.309937] (my_robot_controller) StdoutLine: {'line': b'copying package.xml -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/share/my_robot_controller\n'}
+[1.310029] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.310590] (-) TimerEvent: {}
+[1.310983] (handshake) StdoutLine: {'line': b'byte-compiling /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake/VCU.py to VCU.cpython-310.pyc\n'}
+[1.311054] (handshake) StdoutLine: {'line': b'byte-compiling /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake/__init__.py to __init__.cpython-310.pyc\n'}
+[1.311440] (handshake) StdoutLine: {'line': b'running install_data\n'}
+[1.311823] (handshake) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/ament_index\n'}
+[1.312082] (handshake) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/ament_index/resource_index\n'}
+[1.312138] (handshake) StdoutLine: {'line': b'creating /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/ament_index/resource_index/packages\n'}
+[1.312188] (handshake) StdoutLine: {'line': b'copying resource/handshake -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/ament_index/resource_index/packages\n'}
+[1.312633] (handshake) StdoutLine: {'line': b'copying package.xml -> /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/share/handshake\n'}
+[1.313105] (handshake) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.313738] (my_robot_controller) StdoutLine: {'line': b'Copying ../build/my_robot_controller/my_robot_controller.egg-info to /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[1.314065] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.314344] (handshake) StdoutLine: {'line': b'Copying ../build/handshake/handshake.egg-info to /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/python3.10/site-packages/handshake-0.0.0-py3.10.egg-info\n'}
+[1.314409] (handshake) StdoutLine: {'line': b'running install_scripts\n'}
+[1.333229] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/my_robot_controller\n'}
+[1.333789] (my_robot_controller) StdoutLine: {'line': b'Installing pose_subscriber script to /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/my_robot_controller\n'}
+[1.333857] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_controller/lib/my_robot_controller\n'}
+[1.334089] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_controller/install.log'\n"}
+[1.334210] (handshake) StdoutLine: {'line': b'Installing AI script to /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/handshake\n'}
+[1.335190] (handshake) StdoutLine: {'line': b'Installing VCU script to /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/handshake/lib/handshake\n'}
+[1.335244] (handshake) StdoutLine: {'line': b"writing list of installed files to '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/handshake/install.log'\n"}
+[1.368954] (handshake) CommandEnded: {'returncode': 0}
+[1.373899] (handshake) JobEnded: {'identifier': 'handshake', 'rc': 0}
+[1.374993] (my_robot_controller) CommandEnded: {'returncode': 0}
+[1.380989] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[1.410758] (-) TimerEvent: {}
+[1.474742] (shm_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.510891] (-) TimerEvent: {}
+[1.554629] (shm_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.563825] (shm_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.577422] (shm_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.598903] (shm_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.611074] (-) TimerEvent: {}
+[1.625153] (shm_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.707325] (shm_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.711169] (-) TimerEvent: {}
+[1.712716] (shm_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.809821] (shm_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.811281] (-) TimerEvent: {}
+[1.841826] (shm_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.886971] (shm_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.901847] (shm_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.911416] (-) TimerEvent: {}
+[1.971691] (shm_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.972137] (shm_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.011577] (-) TimerEvent: {}
+[2.034038] (shm_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.035196] (shm_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.111731] (-) TimerEvent: {}
+[2.113154] (shm_cpp) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.196966] (shm_cpp) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.212049] (-) TimerEvent: {}
+[2.313639] (-) TimerEvent: {}
+[2.414573] (-) TimerEvent: {}
+[2.450947] (shm_cpp) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.515189] (-) TimerEvent: {}
+[2.616063] (-) TimerEvent: {}
+[2.716366] (-) TimerEvent: {}
+[2.743942] (shm_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.816510] (-) TimerEvent: {}
+[2.857265] (shm_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.878530] (shm_cpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.882670] (shm_cpp) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.911599] (shm_cpp) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.911768] (shm_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.911820] (shm_cpp) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.911868] (shm_cpp) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.916593] (-) TimerEvent: {}
+[2.931621] (shm_cpp) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.966184] (shm_cpp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[2.966387] (shm_cpp) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[2.966446] (shm_cpp) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[2.966493] (shm_cpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.966536] (shm_cpp) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_target_interfaces)\n'}
+[2.966580] (shm_cpp) StderrLine: {'line': b'\n'}
+[2.966622] (shm_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[2.975104] (shm_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.011431] (shm_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[3.016721] (-) TimerEvent: {}
+[3.024708] (shm_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp\n'}
+[3.033486] (shm_cpp) CommandEnded: {'returncode': 0}
+[3.034863] (shm_cpp) JobProgress: {'identifier': 'shm_cpp', 'progress': 'build'}
+[3.034897] (shm_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp', '--', '-j4', '-l4'], 'cwd': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tss8117'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tss8117/ros2_ws/install/shm_cpp/lib:/home/tss8117/ros2_ws/src/install/shm_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tss8117'), ('OLDPWD', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2249'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tss8117/ros2_ws/install:/home/tss8117/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tss8117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tss8117'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntutss:@/tmp/.ICE-unix/2226,unix/ubuntutss:/tmp/.ICE-unix/2226'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/530a8c3c_6b68_40ba_8f69_7dad5aa0ca47'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LPFKJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tss8117/ros2_ws/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/handshake/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/SHM/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble')]), 'shell': False}
+[3.067970] (shm_cpp) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.081710] (shm_cpp) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_shm_cpp\n'}
+[3.081902] (shm_cpp) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.087626] (shm_cpp) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o\x1b[0m\n'}
+[3.117002] (-) TimerEvent: {}
+[3.217304] (-) TimerEvent: {}
+[3.317655] (-) TimerEvent: {}
+[3.410523] (shm_cpp) StdoutLine: {'line': b'running egg_info\n'}
+[3.411350] (shm_cpp) StdoutLine: {'line': b'creating shm_cpp.egg-info\n'}
+[3.411596] (shm_cpp) StdoutLine: {'line': b'writing shm_cpp.egg-info/PKG-INFO\n'}
+[3.411906] (shm_cpp) StdoutLine: {'line': b'writing dependency_links to shm_cpp.egg-info/dependency_links.txt\n'}
+[3.412077] (shm_cpp) StdoutLine: {'line': b'writing top-level names to shm_cpp.egg-info/top_level.txt\n'}
+[3.412392] (shm_cpp) StdoutLine: {'line': b"writing manifest file 'shm_cpp.egg-info/SOURCES.txt'\n"}
+[3.415366] (shm_cpp) StdoutLine: {'line': b"reading manifest file 'shm_cpp.egg-info/SOURCES.txt'\n"}
+[3.416188] (shm_cpp) StdoutLine: {'line': b"writing manifest file 'shm_cpp.egg-info/SOURCES.txt'\n"}
+[3.417821] (-) TimerEvent: {}
+[3.456137] (shm_cpp) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_shm_cpp_egg\n'}
+[3.477232] (shm_cpp) StdoutLine: {'line': b'[  8%] Built target shm_cpp__cpp\n'}
+[3.491116] (shm_cpp) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.493180] (shm_cpp) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.517998] (-) TimerEvent: {}
+[3.553137] (shm_cpp) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/shm_cpp__rosidl_generator_c.dir/rosidl_generator_c/shm_cpp/srv/detail/set_spring__functions.c.o\x1b[0m\n'}
+[3.618133] (-) TimerEvent: {}
+[3.662333] (shm_cpp) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libshm_cpp__rosidl_generator_c.so\x1b[0m\n'}
+[3.718262] (-) TimerEvent: {}
+[3.724345] (shm_cpp) StdoutLine: {'line': b'[ 20%] Built target shm_cpp__rosidl_generator_c\n'}
+[3.737469] (shm_cpp) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.818409] (-) TimerEvent: {}
+[3.832669] (shm_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/shm_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shm_cpp/srv/set_spring__type_support.cpp.o\x1b[0m\n'}
+[3.888649] (shm_cpp) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/shm_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shm_cpp/srv/detail/dds_fastrtps/set_spring__type_support.cpp.o\x1b[0m\n'}
+[3.918618] (-) TimerEvent: {}
+[4.019205] (-) TimerEvent: {}
+[4.119765] (-) TimerEvent: {}
+[4.177357] (shm_cpp) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/shm_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shm_cpp/srv/detail/set_spring__type_support.cpp.o\x1b[0m\n'}
+[4.219921] (-) TimerEvent: {}
+[4.242374] (shm_cpp) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libshm_cpp__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.288390] (shm_cpp) StdoutLine: {'line': b'[ 34%] Built target shm_cpp__rosidl_typesupport_cpp\n'}
+[4.297548] (shm_cpp) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.320051] (-) TimerEvent: {}
+[4.414741] (shm_cpp) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libshm_cpp__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.420272] (-) TimerEvent: {}
+[4.500343] (shm_cpp) StdoutLine: {'line': b'[ 40%] Built target shm_cpp__rosidl_typesupport_fastrtps_cpp\n'}
+[4.510480] (shm_cpp) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.520330] (-) TimerEvent: {}
+[4.620787] (-) TimerEvent: {}
+[4.721374] (-) TimerEvent: {}
+[4.822114] (-) TimerEvent: {}
+[4.895109] (shm_cpp) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libshm_cpp__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.917129] (shm_cpp) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/shm_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shm_cpp/srv/detail/set_spring__type_support.c.o\x1b[0m\n'}
+[4.922249] (-) TimerEvent: {}
+[4.969514] (shm_cpp) StdoutLine: {'line': b'[ 48%] Built target shm_cpp__rosidl_typesupport_introspection_cpp\n'}
+[4.978097] (shm_cpp) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libshm_cpp__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.978830] (shm_cpp) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/shm_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shm_cpp/srv/detail/set_spring__type_support_c.cpp.o\x1b[0m\n'}
+[4.990172] (shm_cpp) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.009341] (shm_cpp) StdoutLine: {'line': b'[ 57%] Built target shm_cpp__rosidl_typesupport_introspection_c\n'}
+[5.022442] (-) TimerEvent: {}
+[5.122906] (-) TimerEvent: {}
+[5.223260] (-) TimerEvent: {}
+[5.323631] (-) TimerEvent: {}
+[5.369045] (shm_cpp) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/shm_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/shm_cpp/srv/set_spring__type_support.cpp.o\x1b[0m\n'}
+[5.410563] (shm_cpp) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libshm_cpp__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.424284] (-) TimerEvent: {}
+[5.460795] (shm_cpp) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libshm_cpp__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.480273] (shm_cpp) StdoutLine: {'line': b'[ 65%] Built target shm_cpp__rosidl_typesupport_c\n'}
+[5.524498] (-) TimerEvent: {}
+[5.533386] (shm_cpp) StdoutLine: {'line': b'[ 65%] Built target shm_cpp__rosidl_typesupport_fastrtps_c\n'}
+[5.550334] (shm_cpp) StdoutLine: {'line': b'[ 65%] Built target shm_cpp\n'}
+[5.577004] (shm_cpp) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o\x1b[0m\n'}
+[5.577359] (shm_cpp) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.625305] (-) TimerEvent: {}
+[5.725808] (-) TimerEvent: {}
+[5.826418] (-) TimerEvent: {}
+[5.927031] (-) TimerEvent: {}
+[6.027716] (-) TimerEvent: {}
+[6.128469] (-) TimerEvent: {}
+[6.195882] (shm_cpp) StdoutLine: {'line': b'[ 71%] Built target shm_cpp__py\n'}
+[6.228711] (-) TimerEvent: {}
+[6.254999] (shm_cpp) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/shm_cpp__rosidl_generator_py.dir/rosidl_generator_py/shm_cpp/srv/_set_spring_s.c.o\x1b[0m\n'}
+[6.329611] (-) TimerEvent: {}
+[6.432334] (-) TimerEvent: {}
+[6.534514] (-) TimerEvent: {}
+[6.627834] (shm_cpp) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/shm_cpp/libshm_cpp__rosidl_generator_py.so\x1b[0m\n'}
+[6.634648] (-) TimerEvent: {}
+[6.672659] (shm_cpp) StdoutLine: {'line': b'[ 77%] Built target shm_cpp__rosidl_generator_py\n'}
+[6.694889] (shm_cpp) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/shm_cpp__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/shm_cpp/_shm_cpp_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.734892] (-) TimerEvent: {}
+[6.749249] (shm_cpp) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/shm_cpp__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/shm_cpp/_shm_cpp_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.835133] (-) TimerEvent: {}
+[6.935562] (-) TimerEvent: {}
+[6.937731] (shm_cpp) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/shm_cpp/shm_cpp_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[6.971157] (shm_cpp) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/shm_cpp/shm_cpp_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.031191] (shm_cpp) StdoutLine: {'line': b'[ 88%] Built target shm_cpp__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.035685] (-) TimerEvent: {}
+[7.043098] (shm_cpp) StdoutLine: {'line': b'[ 88%] Built target shm_cpp__rosidl_typesupport_introspection_c__pyext\n'}
+[7.078872] (shm_cpp) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/shm_cpp__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/shm_cpp/_shm_cpp_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.135818] (-) TimerEvent: {}
+[7.210107] (shm_cpp) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/shm_cpp/shm_cpp_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.235954] (-) TimerEvent: {}
+[7.262687] (shm_cpp) StdoutLine: {'line': b'[ 94%] Built target shm_cpp__rosidl_typesupport_c__pyext\n'}
+[7.336129] (-) TimerEvent: {}
+[7.436715] (-) TimerEvent: {}
+[7.539325] (-) TimerEvent: {}
+[7.642953] (-) TimerEvent: {}
+[7.743953] (-) TimerEvent: {}
+[7.845089] (-) TimerEvent: {}
+[7.945761] (-) TimerEvent: {}
+[8.046510] (-) TimerEvent: {}
+[8.148227] (-) TimerEvent: {}
+[8.250684] (-) TimerEvent: {}
+[8.351200] (-) TimerEvent: {}
+[8.451802] (-) TimerEvent: {}
+[8.552935] (-) TimerEvent: {}
+[8.654328] (-) TimerEvent: {}
+[8.763592] (-) TimerEvent: {}
+[8.864035] (-) TimerEvent: {}
+[8.964515] (-) TimerEvent: {}
+[9.065081] (-) TimerEvent: {}
+[9.165575] (-) TimerEvent: {}
+[9.266038] (-) TimerEvent: {}
+[9.366558] (-) TimerEvent: {}
+[9.467000] (-) TimerEvent: {}
+[9.567339] (-) TimerEvent: {}
+[9.668333] (-) TimerEvent: {}
+[9.768984] (-) TimerEvent: {}
+[9.869325] (-) TimerEvent: {}
+[9.969672] (-) TimerEvent: {}
+[10.069972] (-) TimerEvent: {}
+[10.170411] (-) TimerEvent: {}
+[10.270701] (-) TimerEvent: {}
+[10.371015] (-) TimerEvent: {}
+[10.471354] (-) TimerEvent: {}
+[10.571709] (-) TimerEvent: {}
+[10.672980] (-) TimerEvent: {}
+[10.758761] (shm_cpp) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable position_publisher\x1b[0m\n'}
+[10.773795] (-) TimerEvent: {}
+[10.874133] (-) TimerEvent: {}
+[10.965123] (shm_cpp) StdoutLine: {'line': b'[ 97%] Built target position_publisher\n'}
+[10.974211] (-) TimerEvent: {}
+[11.075368] (-) TimerEvent: {}
+[11.175648] (-) TimerEvent: {}
+[11.276994] (-) TimerEvent: {}
+[11.377702] (-) TimerEvent: {}
+[11.482551] (-) TimerEvent: {}
+[11.582846] (-) TimerEvent: {}
+[11.686826] (-) TimerEvent: {}
+[11.787113] (-) TimerEvent: {}
+[11.887607] (-) TimerEvent: {}
+[11.993449] (-) TimerEvent: {}
+[12.096808] (-) TimerEvent: {}
+[12.197371] (-) TimerEvent: {}
+[12.297985] (-) TimerEvent: {}
+[12.401206] (-) TimerEvent: {}
+[12.501508] (-) TimerEvent: {}
+[12.602935] (-) TimerEvent: {}
+[12.707591] (-) TimerEvent: {}
+[12.809082] (-) TimerEvent: {}
+[12.909665] (-) TimerEvent: {}
+[13.009987] (-) TimerEvent: {}
+[13.062007] (shm_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable visualize_marker\x1b[0m\n'}
+[13.110397] (-) TimerEvent: {}
+[13.214043] (-) TimerEvent: {}
+[13.314368] (-) TimerEvent: {}
+[13.414656] (-) TimerEvent: {}
+[13.480378] (shm_cpp) StdoutLine: {'line': b'[100%] Built target visualize_marker\n'}
+[13.489829] (shm_cpp) CommandEnded: {'returncode': 0}
+[13.491380] (shm_cpp) JobProgress: {'identifier': 'shm_cpp', 'progress': 'install'}
+[13.492534] (shm_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp'], 'cwd': '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tss8117'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tss8117/ros2_ws/install/shm_cpp/lib:/home/tss8117/ros2_ws/src/install/shm_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tss8117'), ('OLDPWD', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2249'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tss8117/ros2_ws/install:/home/tss8117/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tss8117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tss8117'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntutss:@/tmp/.ICE-unix/2226,unix/ubuntutss:/tmp/.ICE-unix/2226'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/530a8c3c_6b68_40ba_8f69_7dad5aa0ca47'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LPFKJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tss8117/ros2_ws/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/shm_cpp/local/lib/python3.10/dist-packages:/home/tss8117/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/handshake/lib/python3.10/site-packages:/home/tss8117/ros2_ws/src/install/SHM/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tss8117/ros2_ws/install/shm_cpp:/home/tss8117/ros2_ws/src/install/shm_cpp:/home/tss8117/ros2_ws/src/install/my_robot_controller:/home/tss8117/ros2_ws/src/install/handshake:/home/tss8117/ros2_ws/src/install/SHM:/opt/ros/humble')]), 'shell': False}
+[13.500020] (shm_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.501683] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/ament_index/resource_index/rosidl_interfaces/shm_cpp\n'}
+[13.501933] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp\n'}
+[13.502334] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv\n'}
+[13.502574] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/set_spring.h\n'}
+[13.502824] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail\n'}
+[13.502984] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__functions.h\n'}
+[13.503176] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__functions.c\n'}
+[13.503639] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__type_support.h\n'}
+[13.503831] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__struct.h\n'}
+[13.503962] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/msg\n'}
+[13.504008] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.504214] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/environment/library_path.sh\n'}
+[13.504656] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/environment/library_path.dsv\n'}
+[13.505029] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_generator_c.so\n'}
+[13.505396] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_generator_c.so" to ""\n'}
+[13.505723] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp\n'}
+[13.505885] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv\n'}
+[13.506027] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail\n'}
+[13.506078] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__rosidl_typesupport_fastrtps_c.h\n'}
+[13.506124] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/msg\n'}
+[13.506206] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.506251] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_fastrtps_c.so\n'}
+[13.506479] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.506642] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp\n'}
+[13.506840] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv\n'}
+[13.506984] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail\n'}
+[13.507155] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__type_support.hpp\n'}
+[13.507440] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__traits.hpp\n'}
+[13.507598] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__struct.hpp\n'}
+[13.507835] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__builder.hpp\n'}
+[13.508039] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/set_spring.hpp\n'}
+[13.508266] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/msg\n'}
+[13.508451] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.508717] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp\n'}
+[13.509053] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv\n'}
+[13.509188] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail\n'}
+[13.509237] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/dds_fastrtps\n'}
+[13.509282] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.509418] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/msg\n'}
+[13.509559] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.509769] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.510133] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.510356] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp\n'}
+[13.510423] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv\n'}
+[13.510506] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail\n'}
+[13.510557] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__rosidl_typesupport_introspection_c.h\n'}
+[13.510714] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__type_support.c\n'}
+[13.510763] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/msg\n'}
+[13.511024] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.511306] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_introspection_c.so\n'}
+[13.511638] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.511825] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_c.so\n'}
+[13.512064] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_c.so" to ""\n'}
+[13.512322] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp\n'}
+[13.512418] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv\n'}
+[13.512497] (shm_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail\n'}
+[13.512648] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.512766] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/include/shm_cpp/shm_cpp/srv/detail/set_spring__type_support.cpp\n'}
+[13.512922] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_introspection_cpp.so\n'}
+[13.513134] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.513328] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_cpp.so\n'}
+[13.513700] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_typesupport_cpp.so" to ""\n'}
+[13.513840] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/environment/pythonpath.sh\n'}
+[13.514030] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/environment/pythonpath.dsv\n'}
+[13.514213] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp-0.0.0-py3.10.egg-info\n'}
+[13.514507] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[13.514642] (-) TimerEvent: {}
+[13.514730] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.515086] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.515318] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[13.515523] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp\n'}
+[13.515703] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/_shm_cpp_s.ep.rosidl_typesupport_c.c\n'}
+[13.515900] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/_shm_cpp_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.516092] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/shm_cpp_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.516246] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/shm_cpp_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.516296] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/libshm_cpp__rosidl_generator_py.so\n'}
+[13.516376] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/shm_cpp_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.516506] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/__init__.py\n'}
+[13.516616] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/_shm_cpp_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.517040] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/srv\n'}
+[13.517168] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/srv/_set_spring.py\n'}
+[13.517253] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/srv/__init__.py\n'}
+[13.517492] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/srv/_set_spring_s.c\n'}
+[13.559437] (shm_cpp) StdoutLine: {'line': b"Listing '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp'...\n"}
+[13.559590] (shm_cpp) StdoutLine: {'line': b"Compiling '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/__init__.py'...\n"}
+[13.559642] (shm_cpp) StdoutLine: {'line': b"Listing '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/srv'...\n"}
+[13.559688] (shm_cpp) StdoutLine: {'line': b"Compiling '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/srv/__init__.py'...\n"}
+[13.559732] (shm_cpp) StdoutLine: {'line': b"Compiling '/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/srv/_set_spring.py'...\n"}
+[13.564300] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/shm_cpp_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.564543] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/shm_cpp_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[13.564711] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/shm_cpp_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.565076] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/shm_cpp_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[13.565252] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/shm_cpp_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.565541] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/local/lib/python3.10/dist-packages/shm_cpp/shm_cpp_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[13.565683] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_generator_py.so\n'}
+[13.565871] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/libshm_cpp__rosidl_generator_py.so" to ""\n'}
+[13.566140] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/srv/SetSpring.idl\n'}
+[13.566267] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/srv/SetSpring.srv\n'}
+[13.566525] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/srv/SetSpring_Request.msg\n'}
+[13.566767] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/srv/SetSpring_Response.msg\n'}
+[13.566981] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/shm_cpp/position_publisher\n'}
+[13.568136] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/shm_cpp/position_publisher" to ""\n'}
+[13.568199] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/shm_cpp/visualize_marker\n'}
+[13.572272] (shm_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/lib/shm_cpp/visualize_marker" to ""\n'}
+[13.572533] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/ament_index/resource_index/package_run_dependencies/shm_cpp\n'}
+[13.572779] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/ament_index/resource_index/parent_prefix_path/shm_cpp\n'}
+[13.573200] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/environment/ament_prefix_path.sh\n'}
+[13.573771] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/environment/ament_prefix_path.dsv\n'}
+[13.574021] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/environment/path.sh\n'}
+[13.574173] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/environment/path.dsv\n'}
+[13.574511] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/local_setup.bash\n'}
+[13.574750] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/local_setup.sh\n'}
+[13.575021] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/local_setup.zsh\n'}
+[13.575204] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/local_setup.dsv\n'}
+[13.575460] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.dsv\n'}
+[13.575805] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/ament_index/resource_index/packages/shm_cpp\n'}
+[13.576057] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/export_shm_cpp__rosidl_generator_cExport.cmake\n'}
+[13.576251] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/export_shm_cpp__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.576551] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/export_shm_cpp__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.576996] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/export_shm_cpp__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.577274] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/export_shm_cpp__rosidl_generator_cppExport.cmake\n'}
+[13.577626] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/export_shm_cpp__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.577898] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/export_shm_cpp__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.578154] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/shm_cpp__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.578399] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/shm_cpp__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.578733] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/shm_cpp__rosidl_typesupport_cExport.cmake\n'}
+[13.578920] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/shm_cpp__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.579384] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/shm_cpp__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.579631] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/shm_cpp__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.579955] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/shm_cpp__rosidl_typesupport_cppExport.cmake\n'}
+[13.580463] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/shm_cpp__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.580707] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/export_shm_cpp__rosidl_generator_pyExport.cmake\n'}
+[13.581144] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/export_shm_cpp__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.581351] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/rosidl_cmake-extras.cmake\n'}
+[13.581615] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.581904] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.582258] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.582450] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.582697] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.583121] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.583298] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/shm_cppConfig.cmake\n'}
+[13.583569] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/cmake/shm_cppConfig-version.cmake\n'}
+[13.584644] (shm_cpp) StdoutLine: {'line': b'-- Installing: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp/share/shm_cpp/package.xml\n'}
+[13.587590] (shm_cpp) CommandEnded: {'returncode': 0}
+[13.602665] (shm_cpp) JobEnded: {'identifier': 'shm_cpp', 'rc': 0}
+[13.603453] (-) EventReactorShutdown: {}
