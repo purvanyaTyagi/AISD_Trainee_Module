@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="explorabot">
+
+  <!-- ================== -->
+  <!-- Global Properties -->
+  <!-- ================== -->
+  <xacro:property name="body_l" value="0.6"/>
+  <xacro:property name="body_w" value="0.4"/>
+  <xacro:property name="body_h" value="0.2"/>
+
+  <xacro:property name="wheel_r" value="0.08"/>
+  <xacro:property name="wheel_w" value="0.05"/>
+
+  <!-- ================== -->
+  <!-- Base Link -->
+  <!-- ================== -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="${body_l} ${body_w} ${body_h}"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="${body_l} ${body_w} ${body_h}"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="1e-3" iyy="1e-3" izz="1e-3"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <!-- ================== -->
+  <!-- Left Wheel -->
+  <!-- ================== -->
+  <link name="left_wheel">
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="${wheel_r}" length="${wheel_w}"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="${wheel_r}" length="${wheel_w}"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1e-4" iyy="1e-4" izz="1e-4"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel"/>
+    <origin xyz="0 0.225 -0.06" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="5" velocity="5"/>
+  </joint>
+
+  <!-- ================== -->
+  <!-- Right Wheel -->
+  <!-- ================== -->
+  <link name="right_wheel">
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="${wheel_r}" length="${wheel_w}"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="${wheel_r}" length="${wheel_w}"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1e-4" iyy="1e-4" izz="1e-4"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_wheel"/>
+    <origin xyz="0 -0.225 -0.06" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="5" velocity="5"/>
+  </joint>
+
+  <!-- ================== -->
+  <!-- Rear Support Wheel -->
+  <!-- ================== -->
+  <link name="rear_wheel">
+    <visual>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.5"/>
+      <inertia ixx="1e-4" iyy="1e-4" izz="1e-4"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="rear_wheel_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="rear_wheel"/>
+    <origin xyz="-0.22 0 -0.09" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ================== -->
+  <!-- Mast -->
+  <!-- ================== -->
+  <link name="mast_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.3"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <cylinder radius="0.03" length="0.3"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.5"/>
+      <inertia ixx="1e-4" iyy="1e-4" izz="1e-4"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="mast_joint" type="prismatic">
+    <parent link="base_link"/>
+    <child link="mast_link"/>
+    <origin xyz="0 0 0.15" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="0.25" effort="10" velocity="0.2"/>
+  </joint>
+
+  <!-- ================== -->
+  <!-- Sensor Head -->
+  <!-- ================== -->
+  <link name="sensor_head">
+    <visual>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.3"/>
+      <inertia ixx="1e-4" iyy="1e-4" izz="1e-4"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="sensor_joint" type="revolute">
+    <parent link="mast_link"/>
+    <child link="sensor_head"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57" upper="1.57" effort="5" velocity="1"/>
+  </joint>
+
+</robot>
+
