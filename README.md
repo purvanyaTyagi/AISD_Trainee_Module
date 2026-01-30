@@ -7,9 +7,7 @@ Assignment 2 Checkpoint 1 Steps
 Gazebo Terminal
 ```bash 
 colcon build --symlink-install
-
 source install/setup.bash
-
 ros2 launch my_bot_description sim.launch.py
 ```
 
@@ -17,7 +15,6 @@ ros2 launch my_bot_description sim.launch.py
 
 ```bash
 source install/setup.bash
-
 ros2 run my_bot_description wasd_teleop.py
 ```
 
@@ -37,3 +34,4 @@ source ~/ros2_ws/install/setup.bash
 ros2 run rviz2 rviz2
 ```
 The white conical lines denote the camera and the blue lines denote the LiDAR
+
