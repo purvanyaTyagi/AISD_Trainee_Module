@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<robot name="gripper">
+
+  <!-- ================= BASE ================= -->
+  <link name="base_link">
+    <visual>
+      <geometry><box size="0.8 0.6 0.2"/></geometry>
+    </visual>
+    <collision>
+      <geometry><box size="0.8 0.6 0.2"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="10.0"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.4" iyy="0.6" izz="0.4"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <!-- ================= CAMERA ================= -->
+ <link name="camera_link">
+  <visual>
+    <geometry>
+      <box size="0.05 0.05 0.05"/>
+    </geometry>
+  </visual>
+</link>
+
+
+<joint name="base_to_camera" type="fixed">
+  <parent link="base_link"/>
+  <child link="camera_link"/>
+  <origin xyz="0.2 0 0.4" rpy="0 0 0"/>
+</joint>
+
+  <!-- ================= LIDAR ================= -->
+<link name="lidar_link">
+  <visual>
+    <geometry>
+      <cylinder radius="0.04" length="0.01"/>
+    </geometry>
+  </visual>
+</link>
+
+<joint name="base_to_lidar" type="fixed">
+  <parent link="base_link"/>
+  <child link="lidar_link"/>
+  <origin xyz="0.4 0 0.01" rpy="0 0 0"/>
+</joint>
+
+  <!-- ================= DRIVE WHEELS ================= -->
+  <link name="left_wheel">
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.18" length="0.06"/></geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.18" length="0.06"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.01" iyy="0.01" izz="0.01"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <link name="right_wheel">
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.18" length="0.06"/></geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.18" length="0.06"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.01" iyy="0.01" izz="0.01"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel"/>
+    <origin xyz="0.15 0.35 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_wheel"/>
+    <origin xyz="0.15 -0.35 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- ================= REAR WHEEL ================= -->
+  <link name="rear_wheel">
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.08" length="0.03"/></geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry><cylinder radius="0.08" length="0.03"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.002" iyy="0.002" izz="0.002"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="base_to_rear" type="continuous">
+    <parent link="base_link"/>
+    <child link="rear_wheel"/>
+    <origin xyz="-0.4 0 -0.1"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- ================= FIXED LIFT ================= -->
+<link name="lift_link">
+  <visual>
+    <origin xyz="0 0 0.10"/>
+    <geometry><box size="0.06 0.06 0.4"/></geometry>
+  </visual>
+
+  <collision>
+    <origin xyz="0 0 0.10"/>
+    <geometry><box size="0.06 0.06 0.4"/></geometry>
+  </collision>
+
+  <inertial>
+    <mass value="2.5"/>
+    <origin xyz="0 0 0.20"/>
+    <inertia ixx="0.03" iyy="0.03" izz="0.03"
+             ixy="0" ixz="0" iyz="0"/>
+  </inertial>
+</link> 
+
+
+  <joint name="base_to_lift" type="fixed">
+    <parent link="base_link"/>
+    <child link="lift_link"/>
+    <origin xyz="0.2 0 0.24"/>
+  </joint>
+
+  <!-- ================= ARM ================= -->
+  <link name="l3">
+    <visual>
+      <origin xyz="0.15 0 0" rpy="0 1.57 0"/>
+      <geometry><cylinder length="0.3" radius="0.025"/></geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.15 0 0" rpy="0 1.57 0"/>
+      <geometry><cylinder length="0.3" radius="0.025"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="0.6"/>
+      <origin xyz="0.15 0 0"/>
+      <inertia ixx="0.003" iyy="0.003" izz="0.003"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="lift_to_l3" type="revolute">
+    <parent link="lift_link"/>
+    <child link="l3"/>
+    <origin xyz="0 0 0.3"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0.1" lower="-0.5" upper="0.5" velocity="0.1"/>
+  </joint>
+
+  <link name="l2">
+    <visual>
+      <origin xyz="0.15 0 0" rpy="0 1.57 0"/>
+      <geometry><cylinder length="0.3" radius="0.025"/></geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.15 0 0" rpy="0 1.57 0"/>
+      <geometry><cylinder length="0.3" radius="0.025"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="0.5"/>
+      <origin xyz="0.15 0 0"/>
+      <inertia ixx="0.002" iyy="0.002" izz="0.002"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="l3_to_l2" type="revolute">
+    <parent link="l3"/>
+    <child link="l2"/>
+    <origin xyz="0.3 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="0.1" lower="-1.0" upper="1.0" velocity="0.1"/>
+  </joint>
+
+  <link name="l1">
+    <visual>
+      <origin xyz="0.1 0 0" rpy="0 1.57 0"/>
+      <geometry><cylinder length="0.2" radius="0.02"/></geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.1 0 0" rpy="0 1.57 0"/>
+      <geometry><cylinder length="0.2" radius="0.02"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4"/>
+      <origin xyz="0.1 0 0"/>
+      <inertia ixx="0.001" iyy="0.001" izz="0.001"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="l2_to_l1" type="revolute">
+    <parent link="l2"/>
+    <child link="l1"/>
+    <origin xyz="0.3 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="0.1" lower="-1.0" upper="1.0" velocity="0.1"/>
+  </joint>
+
+  <link name="grip">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry><box size="0.05 0.04 0.03"/></geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.05 0 0"/>
+      <geometry><box size="0.05 0.04 0.03"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="0.3"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.001" iyy="0.001" izz="0.001"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="l1_to_grip" type="revolute">
+    <parent link="l1"/>
+    <child link="grip"/>
+    <origin xyz="0.2 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0.1" lower="-1.0" upper="1.0" velocity="0.1"/>
+  </joint>
+
+  <!-- ================= GAZEBO PLUGINS ================= -->
+<gazebo>
+  <plugin name="gazebo_joint_state_publisher"
+          filename="libgazebo_ros_joint_state_publisher.so">
+
+    <update_rate>50</update_rate>
+
+    <!-- DRIVE -->
+    <joint_name>left_wheel_joint</joint_name>
+    <joint_name>right_wheel_joint</joint_name>
+    <joint_name>base_to_rear</joint_name>
+
+    <!-- ARM -->
+    <joint_name>lift_to_l3</joint_name>
+    <joint_name>l3_to_l2</joint_name>
+    <joint_name>l2_to_l1</joint_name>
+    <joint_name>l1_to_grip</joint_name>
+
+  </plugin>
+</gazebo>
+
+<gazebo reference="camera_link">
+  <sensor type="camera" name="camera_sensor">
+    <update_rate>30</update_rate>
+    <camera>
+      <horizontal_fov>1.047</horizontal_fov>
+      <image>
+        <width>640</width>
+        <height>480</height>
+        <format>R8G8B8</format>
+      </image>
+      <clip>
+        <near>0.1</near>
+        <far>10.0</far>
+      </clip>
+    </camera>
+
+    <plugin name="camera_controller"
+            filename="libgazebo_ros_camera.so">
+      <frame_name>camera_link</frame_name>
+    </plugin>
+  </sensor>
+</gazebo>
+
+<gazebo reference="lidar_link">
+  <sensor type="ray" name="lidar_sensor">
+    <always_on>true</always_on>
+    <update_rate>10</update_rate>
+    <visualize>true</visualize>
+
+    <ray>
+      <scan>
+        <horizontal>
+          <samples>720</samples>
+          <min_angle>-1.57</min_angle>
+          <max_angle>1.57</max_angle>
+        </horizontal>
+      </scan>
+      <range>
+        <min>0.12</min>
+        <max>10.0</max>
+      </range>
+    </ray>
+
+    <plugin name="gazebo_lidar"
+            filename="libgazebo_ros_ray_sensor.so">
+      <topic_name>/scan</topic_name>
+      <frame_name>lidar_link</frame_name>
+    </plugin>
+  </sensor>
+</gazebo>
+
+
+</robot>
+
