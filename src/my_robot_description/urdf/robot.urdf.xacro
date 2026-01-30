@@ -5,12 +5,12 @@
   <link name="base_link">
     <visual>
       <geometry>
-        <box size="0.4 0.3 0.1"/>
+        <box size="0.6 0.3 0.1"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <box size="0.4 0.3 0.1"/>
+        <box size="0.6 0.3 0.1"/>
       </geometry>
     </collision>
     <inertial>
@@ -21,8 +21,37 @@
     </inertial>
   </link>
 
-  <!-- Left Wheel -->
-  <link name="left_wheel">
+  <!-- Left Behind Wheel -->
+  <link name="left_behind_wheel">
+    <visual>
+        <origin rpy="1.5708 0 0"/>
+        <geometry>
+        <cylinder radius="0.1" length="0.02"/>
+        </geometry>
+        <material name="black">
+        <color rgba="0.1 0.1 0.1 1.0"/>
+        </material>
+    </visual>
+    <inertial>
+      <mass value = "0.1"/>
+  </link>
+
+
+  <!-- Right Behind Wheel -->
+  <link name="right_behind_wheel">
+    <visual>
+        <origin rpy="1.5708 0 0"/>
+        <geometry>
+        <cylinder radius="0.1" length="0.02"/>
+        </geometry>
+        <material name="black">
+        <color rgba="0.1 0.1 0.1 1.0"/>
+        </material>
+    </visual>
+  </link>
+
+  <!-- Left Front Wheel -->
+  <link name="left_front_wheel">
     <visual>
         <origin rpy="1.5708 0 0"/>
         <geometry>
@@ -35,8 +64,8 @@
   </link>
 
 
-  <!-- Right Wheel -->
-  <link name="right_wheel">
+  <!-- Right Front Wheel -->
+  <link name="right_front_wheel">
     <visual>
         <origin rpy="1.5708 0 0"/>
         <geometry>
@@ -47,19 +76,34 @@
         </material>
     </visual>
   </link>
+
 
   <!-- Joints -->
-<joint name="left_wheel_joint" type="continuous">
-  <parent link="base_link"/>
-  <child link="left_wheel"/>
-  <origin xyz="0 0.175 0"/>
-  <axis xyz="0 1 0"/>
-</joint>
-
-  <joint name="right_wheel_joint" type="continuous">
+  <joint name="left_behind_wheel_joint" type="continuous">
     <parent link="base_link"/>
-    <child link="right_wheel"/>
-    <origin xyz="0 -0.175 0"/>
+    <child link="left_behind_wheel"/>
+    <origin xyz="-0.2 0.175 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <joint name="right_behind_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_behind_wheel"/>
+    <origin xyz="-0.2 -0.175 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <joint name="left_front_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_front_wheel"/>
+    <origin xyz="0.2 0.175 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <joint name="right_front_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_front_wheel"/>
+    <origin xyz="0.2 -0.175 0"/>
     <axis xyz="0 1 0"/>
   </joint>
 
