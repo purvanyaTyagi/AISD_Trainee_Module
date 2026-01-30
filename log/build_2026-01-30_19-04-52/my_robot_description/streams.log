@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/pratik/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pratik/ros2_ws/build/my_robot_description -- -j20 -l20
+[0.024s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.093s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.108s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.109s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.112s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.140s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.141s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.197s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.227s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.233s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.246s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.370s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.370s]   Packages installing interfaces must include
+[0.370s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.370s]   package.xml
+[0.370s] Call Stack (most recent call first):
+[0.370s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[0.370s] 
+[0.370s] [0m
+[0.370s] -- Configuring incomplete, errors occurred!
+[0.370s] See also "/home/pratik/ros2_ws/build/my_robot_description/CMakeFiles/CMakeOutput.log".
+[0.375s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.377s] Invoked command in '/home/pratik/ros2_ws/build/my_robot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pratik/ros2_ws/build/my_robot_description -- -j20 -l20

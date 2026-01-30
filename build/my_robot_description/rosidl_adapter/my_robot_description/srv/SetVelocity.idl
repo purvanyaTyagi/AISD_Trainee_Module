@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_description/srv/SetVelocity.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_description {
+  module srv {
+    struct SetVelocity_Request {
+      double linear_x;
+
+      double angular_z;
+    };
+    struct SetVelocity_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

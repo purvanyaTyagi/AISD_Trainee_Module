@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.000250] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.000297] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.004426] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.004970] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/pratik/ros2_ws/src/my_robot_description', '-DCMAKE_INSTALL_PREFIX=/home/pratik/ros2_ws/install/my_robot_description'], 'cwd': '/home/pratik/ros2_ws/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratik'), ('OLDPWD', '/home/pratik/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2874'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratik/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratik'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/pratik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratik-Legion-5-15IRX9:@/tmp/.ICE-unix/2874,unix/pratik-Legion-5-15IRX9:/tmp/.ICE-unix/2874'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b836c0ed_f0fc_4f5d_bed4_1ae3bea0ec91'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TH82J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratik/ros2_ws/build/my_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.054161] (my_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.094909] (my_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099419] (-) TimerEvent: {}
+[0.099811] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.177702] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.181828] (my_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.181889] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.181958] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.183700] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199500] (-) TimerEvent: {}
+[0.249741] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.256367] (my_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.256593] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.256998] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.258715] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299608] (-) TimerEvent: {}
+[0.372844] (my_robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399745] (-) TimerEvent: {}
+[0.422146] (my_robot_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.445473] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.447631] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.451794] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.457647] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.465492] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.486482] (my_robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.487667] (my_robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499849] (-) TimerEvent: {}
+[0.551042] (my_robot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.576050] (my_robot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.597685] (my_robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.599964] (-) TimerEvent: {}
+[0.601814] (my_robot_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.675185] (my_robot_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.675399] (my_robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700170] (-) TimerEvent: {}
+[0.751286] (my_robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.752461] (my_robot_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.781095] (my_robot_description) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.787688] (my_robot_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.796484] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.800298] (-) TimerEvent: {}
+[0.900543] (-) TimerEvent: {}
+[0.952935] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.000696] (-) TimerEvent: {}
+[1.101013] (-) TimerEvent: {}
+[1.155761] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201128] (-) TimerEvent: {}
+[1.240871] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.265086] (my_robot_description) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.266464] (my_robot_description) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.288167] (my_robot_description) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.288358] (my_robot_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.288435] (my_robot_description) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.288505] (my_robot_description) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.300710] (my_robot_description) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.301213] (-) TimerEvent: {}
+[1.329267] (my_robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.337667] (my_robot_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.337928] (my_robot_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.338007] (my_robot_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.338166] (my_robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.338400] (my_robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.338564] (my_robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.338998] (my_robot_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.339078] (my_robot_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.339165] (my_robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.340161] (my_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.356191] (my_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.362498] (my_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/pratik/ros2_ws/build/my_robot_description\n'}
+[1.369742] (my_robot_description) CommandEnded: {'returncode': 0}
+[1.370168] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'build'}
+[1.370183] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pratik/ros2_ws/build/my_robot_description', '--', '-j20', '-l20'], 'cwd': '/home/pratik/ros2_ws/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratik'), ('OLDPWD', '/home/pratik/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2874'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratik/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratik'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/pratik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratik-Legion-5-15IRX9:@/tmp/.ICE-unix/2874,unix/pratik-Legion-5-15IRX9:/tmp/.ICE-unix/2874'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b836c0ed_f0fc_4f5d_bed4_1ae3bea0ec91'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TH82J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratik/ros2_ws/build/my_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[1.401389] (-) TimerEvent: {}
+[1.401587] (my_robot_description) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.411249] (my_robot_description) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.415905] (my_robot_description) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_my_robot_description\n'}
+[1.501536] (-) TimerEvent: {}
+[1.536945] (my_robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.537156] (my_robot_description) StdoutLine: {'line': b'creating my_robot_description.egg-info\n'}
+[1.537216] (my_robot_description) StdoutLine: {'line': b'writing my_robot_description.egg-info/PKG-INFO\n'}
+[1.537425] (my_robot_description) StdoutLine: {'line': b'writing dependency_links to my_robot_description.egg-info/dependency_links.txt\n'}
+[1.537486] (my_robot_description) StdoutLine: {'line': b'writing top-level names to my_robot_description.egg-info/top_level.txt\n'}
+[1.537579] (my_robot_description) StdoutLine: {'line': b"writing manifest file 'my_robot_description.egg-info/SOURCES.txt'\n"}
+[1.538529] (my_robot_description) StdoutLine: {'line': b"reading manifest file 'my_robot_description.egg-info/SOURCES.txt'\n"}
+[1.538742] (my_robot_description) StdoutLine: {'line': b"writing manifest file 'my_robot_description.egg-info/SOURCES.txt'\n"}
+[1.546693] (my_robot_description) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_c.dir/rosidl_generator_c/my_robot_description/srv/detail/set_velocity__functions.c.o\x1b[0m\n'}
+[1.554119] (my_robot_description) StdoutLine: {'line': b'[  8%] Built target my_robot_description__cpp\n'}
+[1.555664] (my_robot_description) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_my_robot_description_egg\n'}
+[1.560649] (my_robot_description) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.560814] (my_robot_description) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.561581] (my_robot_description) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.578765] (my_robot_description) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_description__rosidl_generator_c.so\x1b[0m\n'}
+[1.601663] (-) TimerEvent: {}
+[1.604349] (my_robot_description) StdoutLine: {'line': b'[ 20%] Built target my_robot_description__rosidl_generator_c\n'}
+[1.611398] (my_robot_description) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.611880] (my_robot_description) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.612104] (my_robot_description) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.690275] (my_robot_description) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_description/srv/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.701648] (my_robot_description) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_description/srv/detail/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.701821] (-) TimerEvent: {}
+[1.707475] (my_robot_description) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_description/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.747745] (my_robot_description) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_description/srv/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.761048] (my_robot_description) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_description/srv/detail/set_velocity__type_support_c.cpp.o\x1b[0m\n'}
+[1.761225] (my_robot_description) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/my_robot_description__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_description/srv/detail/set_velocity__type_support.c.o\x1b[0m\n'}
+[1.769150] (my_robot_description) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.786722] (my_robot_description) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_description__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.801955] (-) TimerEvent: {}
+[1.803710] (my_robot_description) StdoutLine: {'line': b'[ 51%] Built target my_robot_description__rosidl_typesupport_c\n'}
+[1.810932] (my_robot_description) StdoutLine: {'line': b'[ 51%] Built target my_robot_description__rosidl_typesupport_introspection_c\n'}
+[1.840866] (my_robot_description) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.869518] (my_robot_description) StdoutLine: {'line': b'[ 54%] Built target my_robot_description__rosidl_typesupport_cpp\n'}
+[1.886927] (my_robot_description) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o\x1b[0m\n'}
+[1.887120] (my_robot_description) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[1.902060] (-) TimerEvent: {}
+[1.911629] (my_robot_description) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.911803] (my_robot_description) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.934717] (my_robot_description) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.959533] (my_robot_description) StdoutLine: {'line': b'[ 68%] Built target my_robot_description__rosidl_typesupport_fastrtps_cpp\n'}
+[1.959702] (my_robot_description) StdoutLine: {'line': b'[ 68%] Built target my_robot_description__rosidl_typesupport_introspection_cpp\n'}
+[1.981664] (my_robot_description) StdoutLine: {'line': b'[ 68%] Built target my_robot_description__rosidl_typesupport_fastrtps_c\n'}
+[1.995506] (my_robot_description) StdoutLine: {'line': b'[ 68%] Built target my_robot_description\n'}
+[2.002161] (-) TimerEvent: {}
+[2.010741] (my_robot_description) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.102302] (-) TimerEvent: {}
+[2.187696] (my_robot_description) StdoutLine: {'line': b'[ 71%] Built target my_robot_description__py\n'}
+[2.202405] (-) TimerEvent: {}
+[2.202700] (my_robot_description) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_py.dir/rosidl_generator_py/my_robot_description/srv/_set_velocity_s.c.o\x1b[0m\n'}
+[2.274600] (my_robot_description) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_description/libmy_robot_description__rosidl_generator_py.so\x1b[0m\n'}
+[2.302513] (-) TimerEvent: {}
+[2.303192] (my_robot_description) StdoutLine: {'line': b'[ 77%] Built target my_robot_description__rosidl_generator_py\n'}
+[2.319087] (my_robot_description) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/my_robot_description__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.319271] (my_robot_description) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_robot_description__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.319357] (my_robot_description) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_robot_description__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.375975] (my_robot_description) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_description/my_robot_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.376149] (my_robot_description) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_description/my_robot_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.376213] (my_robot_description) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_description/my_robot_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.397818] (my_robot_description) StdoutLine: {'line': b'[ 94%] Built target my_robot_description__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.402468] (my_robot_description) StdoutLine: {'line': b'[ 94%] Built target my_robot_description__rosidl_typesupport_introspection_c__pyext\n'}
+[2.402636] (-) TimerEvent: {}
+[2.402731] (my_robot_description) StdoutLine: {'line': b'[ 94%] Built target my_robot_description__rosidl_typesupport_c__pyext\n'}
+[2.502784] (-) TimerEvent: {}
+[2.603135] (-) TimerEvent: {}
+[2.703461] (-) TimerEvent: {}
+[2.803827] (-) TimerEvent: {}
+[2.904163] (-) TimerEvent: {}
+[3.004506] (-) TimerEvent: {}
+[3.049737] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.049925] (my_robot_description) StderrLine: {'line': b'   15 |         const std::shared_ptr<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity::Request> request,\n'}
+[3.049985] (my_robot_description) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.050039] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.050091] (my_robot_description) StderrLine: {'line': b'   15 |         const std::shared_ptr<your_package_name::srv::SetVelocity::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[3.050142] (my_robot_description) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.050335] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.050415] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:11:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.050479] (my_robot_description) StderrLine: {'line': b'   11 |     auto client = node->create_client<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity>("set_robot_velocity");\n'}
+[3.050536] (my_robot_description) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.050587] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:11:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.050638] (my_robot_description) StderrLine: {'line': b'   11 |     auto client = node->\x1b[01;31m\x1b[Kcreate_client<your_package_name::srv::SetVelocity>\x1b[m\x1b[K("set_robot_velocity");\n'}
+[3.050688] (my_robot_description) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.050737] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:11:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_client<<expression error> >(const char [19])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.050787] (my_robot_description) StderrLine: {'line': b'   11 |     auto client = \x1b[01;31m\x1b[Knode->create_client<your_package_name::srv::SetVelocity>("set_robot_velocity")\x1b[m\x1b[K;\n'}
+[3.050836] (my_robot_description) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.050885] (my_robot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.050933] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.050982] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.051031] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:2\x1b[m\x1b[K:\n'}
+[3.051079] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.051132] (my_robot_description) StderrLine: {'line': b'  252 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[3.051180] (my_robot_description) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.051229] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.051292] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:11:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.051342] (my_robot_description) StderrLine: {'line': b'   11 |     auto client = \x1b[01;31m\x1b[Knode->create_client<your_package_name::srv::SetVelocity>("set_robot_velocity")\x1b[m\x1b[K;\n'}
+[3.051391] (my_robot_description) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.051439] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:14:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.051492] (my_robot_description) StderrLine: {'line': b'   14 |         auto request = std::\x1b[01;31m\x1b[Kmake_shared<your_package_name::srv::SetVelocity::Request>\x1b[m\x1b[K();\n'}
+[3.051541] (my_robot_description) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.051589] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:14:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<your_package_name>()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.051638] (my_robot_description) StderrLine: {'line': b'   14 |         auto request = \x1b[01;31m\x1b[Kstd::make_shared<your_package_name::srv::SetVelocity::Request>()\x1b[m\x1b[K;\n'}
+[3.051686] (my_robot_description) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.051739] (my_robot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.051789] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.051837] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:2\x1b[m\x1b[K:\n'}
+[3.051885] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.051935] (my_robot_description) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[3.051982] (my_robot_description) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.052030] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.054439] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.054602] (my_robot_description) StderrLine: {'line': b'   15 |         const std::shared_ptr<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity::Request> request,\n'}
+[3.054661] (my_robot_description) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.054714] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.054766] (my_robot_description) StderrLine: {'line': b'   15 |         const std::shared_ptr<your_package_name::srv::SetVelocity::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[3.054817] (my_robot_description) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.059002] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.059155] (my_robot_description) StderrLine: {'line': b'   15 |         const std::shared_ptr<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity::Request> request,\n'}
+[3.059223] (my_robot_description) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.059285] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.059337] (my_robot_description) StderrLine: {'line': b'   15 |         const std::shared_ptr<your_package_name::srv::SetVelocity::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[3.059387] (my_robot_description) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.059437] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[3.059488] (my_robot_description) StderrLine: {'line': b'   15 |         const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<your_package_name::srv::SetVelocity::Request> request,\n'}
+[3.059537] (my_robot_description) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.059587] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.059637] (my_robot_description) StderrLine: {'line': b'   15 |         const std::shared_ptr<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity::Request> request,\n'}
+[3.059688] (my_robot_description) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.059737] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[3.059793] (my_robot_description) StderrLine: {'line': b'   15 |         \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<your_package_name::srv::SetVelocity::Request> request,\n'}
+[3.059842] (my_robot_description) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.063602] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.063755] (my_robot_description) StderrLine: {'line': b'   16 |         std::shared_ptr<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity::Response> response) {\n'}
+[3.063813] (my_robot_description) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.063864] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.063916] (my_robot_description) StderrLine: {'line': b'   16 |         std::shared_ptr<your_package_name::srv::SetVelocity::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response) {\n'}
+[3.063966] (my_robot_description) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.068125] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.068304] (my_robot_description) StderrLine: {'line': b'   16 |         std::shared_ptr<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity::Response> response) {\n'}
+[3.068365] (my_robot_description) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.068417] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.068469] (my_robot_description) StderrLine: {'line': b'   16 |         std::shared_ptr<your_package_name::srv::SetVelocity::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response) {\n'}
+[3.068519] (my_robot_description) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.072665] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.072834] (my_robot_description) StderrLine: {'line': b'   16 |         std::shared_ptr<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity::Response> response) {\n'}
+[3.072892] (my_robot_description) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.072944] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.072996] (my_robot_description) StderrLine: {'line': b'   16 |         std::shared_ptr<your_package_name::srv::SetVelocity::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response) {\n'}
+[3.073046] (my_robot_description) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.073095] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[3.073145] (my_robot_description) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<your_package_name::srv::SetVelocity::Response> response) {\n'}
+[3.073193] (my_robot_description) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.073246] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.073302] (my_robot_description) StderrLine: {'line': b'   16 |         std::shared_ptr<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity::Response> response) {\n'}
+[3.073351] (my_robot_description) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.073399] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[3.073449] (my_robot_description) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<your_package_name::srv::SetVelocity::Response> response) {\n'}
+[3.073497] (my_robot_description) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.077183] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:25:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.077324] (my_robot_description) StderrLine: {'line': b'   25 |     rclcpp::Service<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity>::SharedPtr service_;\n'}
+[3.077386] (my_robot_description) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.077438] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:25:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.077490] (my_robot_description) StderrLine: {'line': b'   25 |     rclcpp::Service<your_package_name::srv::SetVelocity\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr service_;\n'}
+[3.077541] (my_robot_description) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.077596] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:25:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.077647] (my_robot_description) StderrLine: {'line': b'   25 |     rclcpp::Service<your_package_name::srv::SetVelocity>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K service_;\n'}
+[3.077697] (my_robot_description) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.077746] (my_robot_description) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.077882] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:25:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kservice_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.077958] (my_robot_description) StderrLine: {'line': b'   25 |     rclcpp::Service<your_package_name::srv::SetVelocity>::SharedPtr \x1b[01;31m\x1b[Kservice_\x1b[m\x1b[K;\n'}
+[3.078015] (my_robot_description) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.081194] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRobotController::RobotController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.081366] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:9:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kservice_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.081438] (my_robot_description) StderrLine: {'line': b'    9 |         \x1b[01;31m\x1b[Kservice_\x1b[m\x1b[K = this->create_service<your_package_name::srv::SetVelocity>(\n'}
+[3.081492] (my_robot_description) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.085870] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:9:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.086032] (my_robot_description) StderrLine: {'line': b'    9 |         service_ = this->create_service<\x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::srv::SetVelocity>(\n'}
+[3.086090] (my_robot_description) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.086143] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:9:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.086196] (my_robot_description) StderrLine: {'line': b'    9 |         service_ = this->\x1b[01;31m\x1b[Kcreate_service<your_package_name::srv::SetVelocity>\x1b[m\x1b[K(\n'}
+[3.086255] (my_robot_description) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.089226] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:9:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRobotController::create_service<<expression error> >(const char [19], std::_Bind_helper<false, void (RobotController::*)(...), RobotController*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.089390] (my_robot_description) StderrLine: {'line': b'    9 |         service_ = \x1b[01;31m\x1b[Kthis->create_service<your_package_name::srv::SetVelocity>(\x1b[m\x1b[K\n'}
+[3.089449] (my_robot_description) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.089501] (my_robot_description) StderrLine: {'line': b'   10 | \x1b[01;31m\x1b[K            "set_robot_velocity",\x1b[m\x1b[K\n'}
+[3.089552] (my_robot_description) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                            \n'}
+[3.089602] (my_robot_description) StderrLine: {'line': b'   11 | \x1b[01;31m\x1b[K            std::bind(&RobotController::handle_velocity_request, this, std::placeholders::_1, std::placeholders::_2))\x1b[m\x1b[K;\n'}
+[3.089652] (my_robot_description) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.089702] (my_robot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.089751] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.089799] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.089849] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:2\x1b[m\x1b[K:\n'}
+[3.089898] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.089950] (my_robot_description) StderrLine: {'line': b'  267 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[3.089998] (my_robot_description) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.090047] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.090096] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:9:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.090156] (my_robot_description) StderrLine: {'line': b'    9 |         service_ = \x1b[01;31m\x1b[Kthis->create_service<your_package_name::srv::SetVelocity>(\x1b[m\x1b[K\n'}
+[3.090205] (my_robot_description) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.090260] (my_robot_description) StderrLine: {'line': b'   10 | \x1b[01;31m\x1b[K            "set_robot_velocity",\x1b[m\x1b[K\n'}
+[3.090315] (my_robot_description) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                            \n'}
+[3.090364] (my_robot_description) StderrLine: {'line': b'   11 | \x1b[01;31m\x1b[K            std::bind(&RobotController::handle_velocity_request, this, std::placeholders::_1, std::placeholders::_2))\x1b[m\x1b[K;\n'}
+[3.090413] (my_robot_description) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.092494] (my_robot_description) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.092648] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.092707] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.092760] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.092821] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.092876] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.092927] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.092977] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.093027] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.093077] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.093127] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.093176] (my_robot_description) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:2\x1b[m\x1b[K:\n'}
+[3.093225] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotController::handle_velocity_request(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.093287] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:20:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.093339] (my_robot_description) StderrLine: {'line': b'   20 |                     \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K->linear_x, request->angular_z);\n'}
+[3.093389] (my_robot_description) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.095369] (my_robot_description) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:22:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.095520] (my_robot_description) StderrLine: {'line': b'   22 |         \x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K->success = true;\n'}
+[3.095578] (my_robot_description) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.104625] (-) TimerEvent: {}
+[3.204928] (-) TimerEvent: {}
+[3.269490] (my_robot_description) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1\n'}
+[3.269856] (my_robot_description) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/teleop_node.dir/all] Error 2\n'}
+[3.270003] (my_robot_description) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.305069] (-) TimerEvent: {}
+[3.318432] (my_robot_description) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_controller_node.dir/build.make:76: CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o] Error 1\n'}
+[3.318622] (my_robot_description) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/robot_controller_node.dir/all] Error 2\n'}
+[3.318890] (my_robot_description) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.320415] (my_robot_description) CommandEnded: {'returncode': 2}
+[3.324775] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 2}
+[3.335123] (-) EventReactorShutdown: {}

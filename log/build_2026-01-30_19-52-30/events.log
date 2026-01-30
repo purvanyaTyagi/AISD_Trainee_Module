@@ -1,0 +1,632 @@
+[0.000000] (-) TimerEvent: {}
+[0.000389] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.000423] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.004459] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.004733] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'build'}
+[0.005153] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pratik/ros2_ws/build/my_robot_description', '--', '-j20', '-l20'], 'cwd': '/home/pratik/ros2_ws/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pratik/ros2_ws/install/my_robot_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratik'), ('OLDPWD', '/home/pratik/ros2_ws/src/my_robot_description'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2874'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratik/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratik'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratik'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/pratik/ros2_ws/src/my_robot_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/pratik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratik-Legion-5-15IRX9:@/tmp/.ICE-unix/2874,unix/pratik-Legion-5-15IRX9:/tmp/.ICE-unix/2874'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b836c0ed_f0fc_4f5d_bed4_1ae3bea0ec91'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TH82J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratik/ros2_ws/build/my_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.026487] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099922] (-) TimerEvent: {}
+[0.110110] (my_robot_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.125797] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.127209] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.130444] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.135528] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.142166] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.158906] (my_robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.159615] (my_robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199982] (-) TimerEvent: {}
+[0.214440] (my_robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.239762] (my_robot_description) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.246121] (my_robot_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.254538] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.300051] (-) TimerEvent: {}
+[0.400268] (-) TimerEvent: {}
+[0.407375] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.500360] (-) TimerEvent: {}
+[0.600692] (-) TimerEvent: {}
+[0.611030] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.679512] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700785] (-) TimerEvent: {}
+[0.704393] (my_robot_description) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.725774] (my_robot_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.725826] (my_robot_description) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.725865] (my_robot_description) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.732151] (my_robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.741785] (my_robot_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.741997] (my_robot_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.742025] (my_robot_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.743036] (my_robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.744862] (my_robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.745770] (my_robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.751628] (my_robot_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.751669] (my_robot_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.752448] (my_robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.753293] (my_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.769703] (my_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.776213] (my_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/pratik/ros2_ws/build/my_robot_description\n'}
+[0.794835] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_generator_c\x1b[0m\n'}
+[0.800895] (-) TimerEvent: {}
+[0.805062] (my_robot_description) StdoutLine: {'line': b'[  8%] Built target my_robot_description__rosidl_generator_c\n'}
+[0.805438] (my_robot_description) StdoutLine: {'line': b'[ 11%] Built target my_robot_description__cpp\n'}
+[0.812457] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.812877] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.813798] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_typesupport_c\x1b[0m\n'}
+[0.814051] (my_robot_description) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_my_robot_description\n'}
+[0.814737] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.825679] (my_robot_description) StdoutLine: {'line': b'[ 28%] Built target my_robot_description__rosidl_typesupport_introspection_cpp\n'}
+[0.825948] (my_robot_description) StdoutLine: {'line': b'[ 25%] Built target my_robot_description__rosidl_typesupport_introspection_c\n'}
+[0.826810] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.829653] (my_robot_description) StdoutLine: {'line': b'[ 37%] Built target my_robot_description__rosidl_typesupport_c\n'}
+[0.830248] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.831799] (my_robot_description) StdoutLine: {'line': b'[ 45%] Built target my_robot_description__rosidl_typesupport_fastrtps_c\n'}
+[0.840721] (my_robot_description) StdoutLine: {'line': b'[ 54%] Built target my_robot_description__rosidl_typesupport_fastrtps_cpp\n'}
+[0.841414] (my_robot_description) StdoutLine: {'line': b'[ 62%] Built target my_robot_description__rosidl_typesupport_cpp\n'}
+[0.849673] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target teleop_node\x1b[0m\n'}
+[0.850987] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_controller_node\x1b[0m\n'}
+[0.855171] (my_robot_description) StdoutLine: {'line': b'[ 62%] Built target my_robot_description\n'}
+[0.858589] (my_robot_description) StdoutLine: {'line': b'[ 68%] Built target teleop_node\n'}
+[0.861623] (my_robot_description) StdoutLine: {'line': b'[ 74%] Built target robot_controller_node\n'}
+[0.866357] (my_robot_description) StdoutLine: {'line': b'[ 77%] Built target my_robot_description__py\n'}
+[0.873688] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_generator_py\x1b[0m\n'}
+[0.880767] (my_robot_description) StdoutLine: {'line': b'[ 82%] Built target my_robot_description__rosidl_generator_py\n'}
+[0.888827] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.888981] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.889041] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_description__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.896814] (my_robot_description) StdoutLine: {'line': b'[ 94%] Built target my_robot_description__rosidl_typesupport_introspection_c__pyext\n'}
+[0.896953] (my_robot_description) StdoutLine: {'line': b'[ 94%] Built target my_robot_description__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.898058] (my_robot_description) StdoutLine: {'line': b'[100%] Built target my_robot_description__rosidl_typesupport_c__pyext\n'}
+[0.901002] (-) TimerEvent: {}
+[0.948842] (my_robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[0.949129] (my_robot_description) StdoutLine: {'line': b'writing my_robot_description.egg-info/PKG-INFO\n'}
+[0.949342] (my_robot_description) StdoutLine: {'line': b'writing dependency_links to my_robot_description.egg-info/dependency_links.txt\n'}
+[0.949427] (my_robot_description) StdoutLine: {'line': b'writing top-level names to my_robot_description.egg-info/top_level.txt\n'}
+[0.950369] (my_robot_description) StdoutLine: {'line': b"reading manifest file 'my_robot_description.egg-info/SOURCES.txt'\n"}
+[0.950642] (my_robot_description) StdoutLine: {'line': b"writing manifest file 'my_robot_description.egg-info/SOURCES.txt'\n"}
+[0.967166] (my_robot_description) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_robot_description_egg\n'}
+[0.975759] (my_robot_description) CommandEnded: {'returncode': 0}
+[0.976471] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'install'}
+[0.983642] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pratik/ros2_ws/build/my_robot_description'], 'cwd': '/home/pratik/ros2_ws/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pratik/ros2_ws/install/my_robot_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratik'), ('OLDPWD', '/home/pratik/ros2_ws/src/my_robot_description'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2874'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratik/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratik'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratik'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/pratik/ros2_ws/src/my_robot_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/pratik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratik-Legion-5-15IRX9:@/tmp/.ICE-unix/2874,unix/pratik-Legion-5-15IRX9:/tmp/.ICE-unix/2874'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b836c0ed_f0fc_4f5d_bed4_1ae3bea0ec91'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TH82J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratik/ros2_ws/build/my_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.993036] (my_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.993198] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/ament_index/resource_index/rosidl_interfaces/my_robot_description\n'}
+[0.993302] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description\n'}
+[0.993350] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv\n'}
+[0.993394] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/set_velocity.h\n'}
+[0.993437] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail\n'}
+[0.993480] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__type_support.h\n'}
+[0.993521] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__functions.c\n'}
+[0.993562] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__struct.h\n'}
+[0.993604] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__functions.h\n'}
+[0.993685] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/msg\n'}
+[0.993738] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.993832] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/library_path.sh\n'}
+[0.993874] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/library_path.dsv\n'}
+[0.993914] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/libmy_robot_description__rosidl_generator_c.so\n'}
+[0.993956] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description\n'}
+[0.993998] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv\n'}
+[0.994038] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail\n'}
+[0.994078] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[0.994119] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/msg\n'}
+[0.994159] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.994206] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_fastrtps_c.so\n'}
+[0.994278] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description\n'}
+[0.994401] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv\n'}
+[0.994446] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/set_velocity.hpp\n'}
+[0.994490] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail\n'}
+[0.994532] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__type_support.hpp\n'}
+[0.994574] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__traits.hpp\n'}
+[0.994616] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__struct.hpp\n'}
+[0.994656] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__builder.hpp\n'}
+[0.994697] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/msg\n'}
+[0.994738] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.994778] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description\n'}
+[0.994818] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv\n'}
+[0.994857] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail\n'}
+[0.994896] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.994938] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/dds_fastrtps\n'}
+[0.994979] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/msg\n'}
+[0.995019] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.995060] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.995140] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description\n'}
+[0.995206] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv\n'}
+[0.995252] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail\n'}
+[0.995294] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h\n'}
+[0.995411] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__type_support.c\n'}
+[0.995458] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/msg\n'}
+[0.995501] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.995544] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_introspection_c.so\n'}
+[0.995586] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_c.so\n'}
+[0.995627] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description\n'}
+[0.995671] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv\n'}
+[0.995719] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail\n'}
+[0.996086] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__type_support.cpp\n'}
+[0.996215] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/include/my_robot_description/my_robot_description/srv/detail/set_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.996265] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_introspection_cpp.so\n'}
+[0.996314] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_cpp.so\n'}
+[0.996361] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/pythonpath.sh\n'}
+[0.996406] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/pythonpath.dsv\n'}
+[0.996451] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description-0.0.0-py3.10.egg-info\n'}
+[0.996495] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.996539] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.996583] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.996626] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.996670] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description\n'}
+[0.996719] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.996766] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/__init__.py\n'}
+[0.996815] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.996868] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.996916] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_c.c\n'}
+[0.996964] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.997013] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/libmy_robot_description__rosidl_generator_py.so\n'}
+[0.997061] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/srv\n'}
+[0.997110] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/srv/__init__.py\n'}
+[0.997159] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/srv/_set_velocity.py\n'}
+[0.997211] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/srv/_set_velocity_s.c\n'}
+[0.997273] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.001093] (-) TimerEvent: {}
+[1.020807] (my_robot_description) StdoutLine: {'line': b"Listing '/home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description'...\n"}
+[1.020856] (my_robot_description) StdoutLine: {'line': b"Compiling '/home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/__init__.py'...\n"}
+[1.020882] (my_robot_description) StdoutLine: {'line': b"Listing '/home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/srv'...\n"}
+[1.023261] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.023394] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.023421] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/local/lib/python3.10/dist-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.023519] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/libmy_robot_description__rosidl_generator_py.so\n'}
+[1.023639] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/srv/SetVelocity.idl\n'}
+[1.023662] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/srv/SetVelocity.srv\n'}
+[1.023684] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/srv/SetVelocity_Request.msg\n'}
+[1.023705] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/srv/SetVelocity_Response.msg\n'}
+[1.023727] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/urdf\n'}
+[1.023756] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro\n'}
+[1.023780] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/launch\n'}
+[1.023803] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_gazebo_rviz.launch.py\n'}
+[1.023854] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/worlds\n'}
+[1.023879] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/worlds/my_world.world\n'}
+[1.023902] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models\n'}
+[1.023967] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box\n'}
+[1.023994] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/meshes\n'}
+[1.024017] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/meshes/cardboard_box.dae\n'}
+[1.024076] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/meshes/cardboard_box.png\n'}
+[1.024099] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/model.sdf\n'}
+[1.024121] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/materials\n'}
+[1.024143] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/materials/textures\n'}
+[1.024165] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/materials/textures/cardboard_box.png\n'}
+[1.024190] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/thumbnails\n'}
+[1.024214] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/thumbnails/2.png\n'}
+[1.024236] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/thumbnails/5.png\n'}
+[1.024260] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/thumbnails/4.png\n'}
+[1.024281] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/thumbnails/3.png\n'}
+[1.024303] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/thumbnails/1.png\n'}
+[1.024326] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cardboard_box/model.config\n'}
+[1.024350] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2\n'}
+[1.024372] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes\n'}
+[1.024396] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/spotlight.dae\n'}
+[1.024417] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/user_rail.dae\n'}
+[1.024440] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/base_link.dae\n'}
+[1.024462] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/jpl04_arch_nosensor.stl\n'}
+[1.024483] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/top_plate.dae\n'}
+[1.024505] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/VLP16_base_2.dae\n'}
+[1.024527] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/bumper.dae\n'}
+[1.024548] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/VLP16_base_1.dae\n'}
+[1.024570] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/VLP16_scan.dae\n'}
+[1.024592] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/wheel.dae\n'}
+[1.024614] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/realsense.dae\n'}
+[1.024636] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/meshes/top_chassis.dae\n'}
+[1.024659] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/model.sdf\n'}
+[1.024681] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/materials\n'}
+[1.024739] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/materials/textures\n'}
+[1.024893] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/materials/textures/realsense_diffuse.jpg\n'}
+[1.024921] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/materials/textures/spotlight.jpg\n'}
+[1.024945] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/thumbnails\n'}
+[1.024968] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/thumbnails/4.jpg\n'}
+[1.024990] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/thumbnails/2.jpg\n'}
+[1.025013] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/thumbnails/3.jpg\n'}
+[1.025036] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/thumbnails/1.jpg\n'}
+[1.025059] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/MARBLE_HUSKY_SENSOR_CONFIG_2/model.config\n'}
+[1.025240] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can\n'}
+[1.025267] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/meshes\n'}
+[1.025291] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/meshes/coke_can.dae\n'}
+[1.025314] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/model.sdf\n'}
+[1.025336] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/materials\n'}
+[1.025358] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/materials/textures\n'}
+[1.025382] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/materials/textures/coke_can.png\n'}
+[1.025466] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/model-1_2.sdf\n'}
+[1.025490] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/thumbnails\n'}
+[1.025513] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/thumbnails/2.png\n'}
+[1.025535] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/thumbnails/5.png\n'}
+[1.025558] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/thumbnails/4.png\n'}
+[1.025583] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/thumbnails/3.png\n'}
+[1.025606] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/thumbnails/1.png\n'}
+[1.025628] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/model.config\n'}
+[1.025649] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/model-1_3.sdf\n'}
+[1.025671] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can/model-1_4.sdf\n'}
+[1.025693] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin\n'}
+[1.025715] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/meshes\n'}
+[1.025737] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/meshes/LitterBin_Diffuse.png\n'}
+[1.025819] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/meshes/Litter.obj\n'}
+[1.025843] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/meshes/Litter.mtl\n'}
+[1.025865] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/model.sdf\n'}
+[1.025998] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/thumbnails\n'}
+[1.026021] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/thumbnails/2.png\n'}
+[1.026044] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/thumbnails/5.png\n'}
+[1.026066] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/thumbnails/4.png\n'}
+[1.026090] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/thumbnails/3.png\n'}
+[1.026112] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/thumbnails/1.png\n'}
+[1.026134] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/LitterBin/model.config\n'}
+[1.026155] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table\n'}
+[1.026177] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/model.sdf\n'}
+[1.026202] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/Table_Diffuse.jpg\n'}
+[1.026225] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/model-1_2.sdf\n'}
+[1.026247] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/thumbnails\n'}
+[1.026269] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/thumbnails/2.png\n'}
+[1.026291] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/thumbnails/5.png\n'}
+[1.026313] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/thumbnails/4.png\n'}
+[1.026335] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/thumbnails/3.png\n'}
+[1.026629] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/thumbnails/1.png\n'}
+[1.026859] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/model.config\n'}
+[1.026922] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/model-1_3.sdf\n'}
+[1.026978] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Table/model-1_4.sdf\n'}
+[1.027033] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can\n'}
+[1.027089] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can/meshes\n'}
+[1.027145] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can/meshes/trash_can.dae\n'}
+[1.027220] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can/model.sdf\n'}
+[1.027279] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can/thumbnails\n'}
+[1.027331] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can/thumbnails/2.png\n'}
+[1.027400] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can/thumbnails/5.png\n'}
+[1.027454] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can/thumbnails/4.png\n'}
+[1.027507] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can/thumbnails/3.png\n'}
+[1.027562] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can/thumbnails/1.png\n'}
+[1.027617] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/first_2015_trash_can/model.config\n'}
+[1.027673] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair\n'}
+[1.027731] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/meshes\n'}
+[1.027812] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/meshes/officechair.dae\n'}
+[1.027876] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/model.sdf\n'}
+[1.027929] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/materials\n'}
+[1.027984] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/materials/textures\n'}
+[1.028038] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/materials/textures/OfficeChair_Roughness.png\n'}
+[1.028094] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/materials/textures/OfficeChair_Albedo.png\n'}
+[1.028149] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/materials/textures/OfficeChair_Normal.png\n'}
+[1.028230] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/materials/textures/OfficeChair_Metalness.png\n'}
+[1.028292] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/thumbnails\n'}
+[1.028347] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/thumbnails/OfficeChair.png\n'}
+[1.028402] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Office Chair/model.config\n'}
+[1.028456] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox\n'}
+[1.028513] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/meshes\n'}
+[1.028567] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/meshes/mailbox.dae\n'}
+[1.028623] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/meshes/Mailbox_Spec.png\n'}
+[1.028730] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/meshes/Mailbox_Diffuse.png\n'}
+[1.028787] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/model.sdf\n'}
+[1.028843] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/materials\n'}
+[1.028897] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/materials/scripts\n'}
+[1.028952] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/materials/scripts/mailbox.material\n'}
+[1.029007] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/materials/textures\n'}
+[1.029061] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/materials/textures/Mailbox_Spec.png\n'}
+[1.029172] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/materials/textures/Mailbox_Diffuse.tga.orig\n'}
+[1.029236] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/materials/textures/Mailbox_Diffuse.png\n'}
+[1.029298] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/thumbnails\n'}
+[1.029350] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/thumbnails/2.png\n'}
+[1.029404] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/thumbnails/5.png\n'}
+[1.029459] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/thumbnails/4.png\n'}
+[1.029518] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/thumbnails/3.png\n'}
+[1.029575] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/thumbnails/1.png\n'}
+[1.029629] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/model.config\n'}
+[1.029684] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/model-1_3.sdf\n'}
+[1.029741] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/mailbox/model-1_4.sdf\n'}
+[1.029798] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/RoboCup SPL Ball\n'}
+[1.029856] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/RoboCup SPL Ball/model.sdf\n'}
+[1.029911] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/RoboCup SPL Ball/thumbnails\n'}
+[1.029966] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/RoboCup SPL Ball/thumbnails/2.png\n'}
+[1.030020] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/RoboCup SPL Ball/thumbnails/5.png\n'}
+[1.030071] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/RoboCup SPL Ball/thumbnails/4.png\n'}
+[1.030124] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/RoboCup SPL Ball/thumbnails/3.png\n'}
+[1.030286] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/RoboCup SPL Ball/thumbnails/1.png\n'}
+[1.030350] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/RoboCup SPL Ball/model.config\n'}
+[1.030405] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3\n'}
+[1.030474] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/meshes\n'}
+[1.030528] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/meshes/simple_box.dae\n'}
+[1.030582] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/model.sdf\n'}
+[1.030636] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/materials\n'}
+[1.030791] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/materials/scripts\n'}
+[1.030847] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/materials/scripts/brick_box.material\n'}
+[1.030902] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/materials/textures\n'}
+[1.030956] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/materials/textures/simple_box.png\n'}
+[1.031046] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/thumbnails\n'}
+[1.031102] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/thumbnails/2.png\n'}
+[1.031156] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/thumbnails/5.png\n'}
+[1.031319] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/thumbnails/4.png\n'}
+[1.031549] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/thumbnails/3.png\n'}
+[1.031604] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/thumbnails/1.png\n'}
+[1.031658] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/model.config\n'}
+[1.031713] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/model-1_3.sdf\n'}
+[1.031767] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/brick_box_3x1x3/model-1_4.sdf\n'}
+[1.031821] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant\n'}
+[1.031875] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/meshes\n'}
+[1.031929] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/meshes/fire_hydrant_diffuse.png\n'}
+[1.031982] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/meshes/fire_hydrant_spec.png\n'}
+[1.032181] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/meshes/fire_hydrant.dae\n'}
+[1.032330] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/model.sdf\n'}
+[1.032387] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/materials\n'}
+[1.032441] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/materials/textures\n'}
+[1.032497] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/materials/textures/fire_hydrant_diffuse.png\n'}
+[1.032552] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/materials/textures/fire_hydrant_spec.png\n'}
+[1.032606] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/thumbnails\n'}
+[1.032662] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/thumbnails/2.png\n'}
+[1.032718] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/thumbnails/5.png\n'}
+[1.032772] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/thumbnails/4.png\n'}
+[1.032826] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/thumbnails/3.png\n'}
+[1.032880] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/thumbnails/1.png\n'}
+[1.032934] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/model.config\n'}
+[1.032989] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/fire_hydrant/model-1_4.sdf\n'}
+[1.033117] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart\n'}
+[1.033173] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/meshes\n'}
+[1.033389] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/meshes/minecart.dae\n'}
+[1.033655] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/model.sdf\n'}
+[1.033719] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/metadata.pbtxt\n'}
+[1.033776] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/materials\n'}
+[1.033834] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/materials/scripts\n'}
+[1.033892] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/materials/scripts/model.material\n'}
+[1.034000] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/materials/textures\n'}
+[1.034059] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/materials/textures/MineCart_Roughness.png\n'}
+[1.034116] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/materials/textures/MineCart_Albedo.png\n'}
+[1.034174] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/materials/textures/MineCart_Metalness.png\n'}
+[1.034271] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/thumbnails\n'}
+[1.034362] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/thumbnails/2.png\n'}
+[1.034421] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/thumbnails/4.png\n'}
+[1.034478] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/thumbnails/3.png\n'}
+[1.034540] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/thumbnails/1.png\n'}
+[1.034597] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Mine Cart/model.config\n'}
+[1.034777] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120\n'}
+[1.034861] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/meshes\n'}
+[1.034926] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/meshes/nist_maze_wall_120.dae\n'}
+[1.034987] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/model.sdf\n'}
+[1.035045] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/materials\n'}
+[1.035102] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/materials/textures\n'}
+[1.035160] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/materials/textures/plywood256x256.png\n'}
+[1.035255] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/model-1_2.sdf\n'}
+[1.035324] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/thumbnails\n'}
+[1.035391] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/thumbnails/2.png\n'}
+[1.035457] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/thumbnails/5.png\n'}
+[1.035565] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/thumbnails/4.png\n'}
+[1.035633] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/thumbnails/3.png\n'}
+[1.035806] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/thumbnails/1.png\n'}
+[1.035880] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/model.config\n'}
+[1.035947] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/model-1_3.sdf\n'}
+[1.036014] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/nist_maze_wall_120/model-1_4.sdf\n'}
+[1.036081] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa\n'}
+[1.036147] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/meshes\n'}
+[1.036221] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/meshes/SofaDiffuse.png\n'}
+[1.036451] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/meshes/Sofa.obj\n'}
+[1.036519] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/meshes/Sofa.mtl\n'}
+[1.036586] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/model.sdf\n'}
+[1.036654] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/thumbnails\n'}
+[1.036720] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/thumbnails/2.png\n'}
+[1.036786] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/thumbnails/5.png\n'}
+[1.036860] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/thumbnails/4.png\n'}
+[1.036943] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/thumbnails/3.png\n'}
+[1.037020] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/thumbnails/1.png\n'}
+[1.037095] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Sofa/model.config\n'}
+[1.037172] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble\n'}
+[1.037301] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/meshes\n'}
+[1.037385] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/meshes/table_lightmap.png\n'}
+[1.037462] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/meshes/table_lightmap.dae\n'}
+[1.037599] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/meshes/marble.png\n'}
+[1.037678] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/model.sdf\n'}
+[1.037760] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/materials\n'}
+[1.037843] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/materials/scripts\n'}
+[1.037927] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/materials/scripts/table_lightmap.material\n'}
+[1.038011] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/materials/textures\n'}
+[1.038095] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/materials/textures/table_lightmap.png\n'}
+[1.038179] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/materials/textures/marble.png\n'}
+[1.038276] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/thumbnails\n'}
+[1.038409] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/thumbnails/2.png\n'}
+[1.038534] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/thumbnails/5.png\n'}
+[1.038623] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/thumbnails/4.png\n'}
+[1.039025] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/thumbnails/3.png\n'}
+[1.039124] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/thumbnails/1.png\n'}
+[1.039224] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/model.config\n'}
+[1.039521] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/table_marble/model-1_4.sdf\n'}
+[1.039621] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can_steel\n'}
+[1.039714] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can_steel/meshes\n'}
+[1.039807] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can_steel/meshes/coke_can.png\n'}
+[1.039898] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can_steel/meshes/coke_can.mtl\n'}
+[1.039990] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can_steel/meshes/coke_can.obj\n'}
+[1.040139] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can_steel/model.sdf\n'}
+[1.040277] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can_steel/thumbnails\n'}
+[1.040545] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can_steel/thumbnails/2.png\n'}
+[1.040602] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can_steel/thumbnails/1.png\n'}
+[1.040647] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/coke_can_steel/model.config\n'}
+[1.040691] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/red_ball_10in\n'}
+[1.040733] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/red_ball_10in/model.sdf\n'}
+[1.040775] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/red_ball_10in/thumbnails\n'}
+[1.040816] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/red_ball_10in/thumbnails/1.png\n'}
+[1.040857] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/red_ball_10in/model.config\n'}
+[1.040898] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster\n'}
+[1.040938] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/meshes\n'}
+[1.040979] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/meshes/dumpster.dae\n'}
+[1.041019] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/model.sdf\n'}
+[1.041059] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/materials\n'}
+[1.041099] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/materials/scripts\n'}
+[1.041137] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/materials/scripts/dumpster.material\n'}
+[1.041178] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/materials/textures\n'}
+[1.041225] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/materials/textures/Dumpster_Spec.png\n'}
+[1.041267] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/materials/textures/Dumpster_Diffuse.png\n'}
+[1.041317] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/thumbnails\n'}
+[1.041363] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/thumbnails/2.png\n'}
+[1.041466] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/thumbnails/5.png\n'}
+[1.041604] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/thumbnails/4.png\n'}
+[1.041655] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/thumbnails/3.png\n'}
+[1.041698] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/thumbnails/1.png\n'}
+[1.041747] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/model.config\n'}
+[1.041789] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/model-1_3.sdf\n'}
+[1.041832] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/dumpster/model-1_4.sdf\n'}
+[1.041873] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table\n'}
+[1.041915] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/meshes\n'}
+[1.041955] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/meshes/cafe_table.dae\n'}
+[1.042000] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/meshes/Wood_Floor_Dark.jpg\n'}
+[1.042049] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/meshes/Maple.jpg\n'}
+[1.042101] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/model.sdf\n'}
+[1.042156] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/materials\n'}
+[1.042208] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/materials/textures\n'}
+[1.042258] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/materials/textures/Wood_Floor_Dark.jpg\n'}
+[1.042305] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/materials/textures/Maple.jpg\n'}
+[1.042351] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/thumbnails\n'}
+[1.042396] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/thumbnails/2.png\n'}
+[1.042442] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/thumbnails/5.png\n'}
+[1.042486] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/thumbnails/4.png\n'}
+[1.042532] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/thumbnails/3.png\n'}
+[1.042602] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/thumbnails/1.png\n'}
+[1.042647] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/model.config\n'}
+[1.042693] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/cafe_table/model-1_4.sdf\n'}
+[1.042737] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy\n'}
+[1.042783] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/meshes\n'}
+[1.042828] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/meshes/rescue_randy.dae\n'}
+[1.042900] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/model.sdf\n'}
+[1.042947] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/materials\n'}
+[1.042994] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/materials/scripts\n'}
+[1.043040] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/materials/scripts/rescue_randy.material\n'}
+[1.043086] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/materials/textures\n'}
+[1.043147] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/materials/textures/rescue_randy_metalness.png\n'}
+[1.043199] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/materials/textures/rescue_randy_roughness.png\n'}
+[1.043248] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/materials/textures/RescueRandy_Thermal.png\n'}
+[1.043296] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/materials/textures/rescue_randy_normal.png\n'}
+[1.043341] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/materials/textures/rescue_randy_albedo.png\n'}
+[1.043390] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/thumbnails\n'}
+[1.043435] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/thumbnails/2.png\n'}
+[1.043480] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/thumbnails/5.png\n'}
+[1.043525] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/thumbnails/4.png\n'}
+[1.043569] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/thumbnails/3.png\n'}
+[1.043625] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/thumbnails/1.png\n'}
+[1.043671] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/rescue_randy/model.config\n'}
+[1.043716] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H\n'}
+[1.043763] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/meshes\n'}
+[1.043810] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/meshes/Suitcase1H_Col.obj\n'}
+[1.043858] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/meshes/Suitcase1H_Metal.png\n'}
+[1.043906] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/meshes/Suitcase1H_Normal.png\n'}
+[1.043952] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/meshes/Suitcase1H_Rough.png\n'}
+[1.044001] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/meshes/Suitcase1H.obj\n'}
+[1.044046] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/meshes/Suitcase1H.mtl\n'}
+[1.044089] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/meshes/Suitcase1H_Col.mtl\n'}
+[1.044133] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/meshes/Suitcase1H_Diffuse.png\n'}
+[1.044177] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/model.sdf\n'}
+[1.044239] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/thumbnails\n'}
+[1.044301] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/thumbnails/2.png\n'}
+[1.044351] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/thumbnails/5.png\n'}
+[1.044400] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/thumbnails/4.png\n'}
+[1.044448] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/thumbnails/3.png\n'}
+[1.044494] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/thumbnails/1.png\n'}
+[1.044540] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Suitcase1H/model.config\n'}
+[1.044584] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer\n'}
+[1.044691] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/model.sdf\n'}
+[1.044739] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/materials\n'}
+[1.044785] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/materials/scripts\n'}
+[1.044830] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/materials/scripts/beer.material\n'}
+[1.044877] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/materials/textures\n'}
+[1.044925] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/materials/textures/beer.png\n'}
+[1.044973] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/thumbnails\n'}
+[1.045024] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/thumbnails/2.png\n'}
+[1.045073] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/thumbnails/5.png\n'}
+[1.045123] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/thumbnails/4.png\n'}
+[1.045172] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/thumbnails/3.png\n'}
+[1.045229] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/thumbnails/1.png\n'}
+[1.045280] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/model.config\n'}
+[1.045330] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/beer/model-1_4.sdf\n'}
+[1.045378] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing\n'}
+[1.045427] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/meshes\n'}
+[1.045475] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/meshes/standing.dae\n'}
+[1.045525] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/model.sdf\n'}
+[1.045574] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials\n'}
+[1.045622] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures\n'}
+[1.045671] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/tshirt02_texture.png\n'}
+[1.045721] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/eyebrow001-unmodified.png\n'}
+[1.045997] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/young_lightskinned_male_diffuse.png\n'}
+[1.046079] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/teeth.png\n'}
+[1.046138] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/jeans_basic_diffuse.png\n'}
+[1.046194] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/eyebrow001.png\n'}
+[1.046251] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/green_eye.png\n'}
+[1.046302] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/male02_diffuse_black-unmodified.png\n'}
+[1.046353] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/tshirt02_normals.png\n'}
+[1.046405] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/jeans01_normals.png\n'}
+[1.046455] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/materials/textures/male02_diffuse_black.png\n'}
+[1.046520] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/thumbnails\n'}
+[1.046572] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/thumbnails/2.png\n'}
+[1.046625] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/thumbnails/5.png\n'}
+[1.046675] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/thumbnails/4.png\n'}
+[1.046725] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/thumbnails/3.png\n'}
+[1.046775] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/thumbnails/1.png\n'}
+[1.046824] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/person_standing/model.config\n'}
+[1.046873] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01\n'}
+[1.046922] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/meshes\n'}
+[1.046972] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE\n'}
+[1.047024] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE\n'}
+[1.047092] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf\n'}
+[1.047143] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/metadata.pbtxt\n'}
+[1.047197] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/materials\n'}
+[1.047251] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures\n'}
+[1.047301] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png\n'}
+[1.047353] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png\n'}
+[1.047436] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/thumbnails\n'}
+[1.047491] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/thumbnails/2.png\n'}
+[1.047543] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/thumbnails/5.png\n'}
+[1.047596] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/thumbnails/4.png\n'}
+[1.047647] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/thumbnails/3.png\n'}
+[1.047697] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/thumbnails/1.png\n'}
+[1.047745] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/aws_robomaker_warehouse_ClutteringC_01/model.config\n'}
+[1.047793] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse\n'}
+[1.047841] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/meshes\n'}
+[1.047888] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/meshes/Clipboard.png\n'}
+[1.047958] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/meshes/NurseFemaleDiffuse.png\n'}
+[1.048009] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/meshes/Nurse.obj\n'}
+[1.048058] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/meshes/Nurse_Col.obj\n'}
+[1.048119] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/meshes/Nurse_Col.mtl\n'}
+[1.048168] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/meshes/Nurse.mtl\n'}
+[1.048224] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/model.sdf\n'}
+[1.048273] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/thumbnails\n'}
+[1.048320] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/thumbnails/2.png\n'}
+[1.048367] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/thumbnails/5.png\n'}
+[1.048415] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/thumbnails/4.png\n'}
+[1.048462] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/thumbnails/3.png\n'}
+[1.048510] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/thumbnails/1.png\n'}
+[1.048557] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/models/Nurse/model.config\n'}
+[1.048603] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/robot_controller_node\n'}
+[1.048650] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/teleop_node\n'}
+[1.048697] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/robot_controller.py\n'}
+[1.048747] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description\n'}
+[1.048793] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description\n'}
+[1.048840] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh\n'}
+[1.048887] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv\n'}
+[1.048957] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh\n'}
+[1.049012] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv\n'}
+[1.049063] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash\n'}
+[1.049114] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh\n'}
+[1.049165] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh\n'}
+[1.049220] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv\n'}
+[1.049292] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv\n'}
+[1.049343] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description\n'}
+[1.049393] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_generator_cExport.cmake\n'}
+[1.049443] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.049491] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.049539] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.049587] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_generator_cppExport.cmake\n'}
+[1.049682] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.049738] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.049789] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.049839] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.049888] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_cExport.cmake\n'}
+[1.049936] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.049986] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.050034] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.050086] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_cppExport.cmake\n'}
+[1.050137] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.050188] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_generator_pyExport.cmake\n'}
+[1.050239] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.050321] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/rosidl_cmake-extras.cmake\n'}
+[1.050375] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.050423] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.050473] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.050519] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.050567] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.050613] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.050660] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake\n'}
+[1.050707] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake\n'}
+[1.050752] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml\n'}
+[1.050800] (my_robot_description) CommandEnded: {'returncode': 0}
+[1.068013] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 0}
+[1.068464] (-) EventReactorShutdown: {}

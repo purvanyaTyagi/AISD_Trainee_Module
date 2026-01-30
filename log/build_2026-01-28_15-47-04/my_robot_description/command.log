@@ -1,0 +1,2 @@
+Invoking command in '/home/pratik/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pratik/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/pratik/ros2_ws/install/my_robot_description
+Invoked command in '/home/pratik/ros2_ws/build/my_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pratik/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/pratik/ros2_ws/install/my_robot_description

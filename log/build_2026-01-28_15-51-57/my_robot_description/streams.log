@@ -1,0 +1,61 @@
+[0.006s] Invoking command in '/home/pratik/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pratik/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/pratik/ros2_ws/install/my_robot_description
+[0.015s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.109s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.123s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.124s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.128s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.154s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.155s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.213s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.248s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.254s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.263s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.297s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.297s] -- Configured cppcheck include dirs: 
+[0.297s] -- Configured cppcheck exclude dirs and/or files: 
+[0.297s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.297s] -- Added test 'lint_cmake' to check CMake code style
+[0.298s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.298s] -- Added test 'uncrustify' to check C / C++ code style
+[0.298s] -- Configured uncrustify additional arguments: 
+[0.298s] -- Added test 'xmllint' to check XML markup files
+[0.298s] -- Configuring done
+[0.303s] -- Generating done
+[0.304s] -- Build files have been written to: /home/pratik/ros2_ws/build/my_robot_description
+[0.309s] Invoked command in '/home/pratik/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pratik/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/pratik/ros2_ws/install/my_robot_description
+[0.310s] Invoking command in '/home/pratik/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pratik/ros2_ws/build/my_robot_description -- -j20 -l20
+[0.358s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o[0m
+[1.628s] [01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.628s] [01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:68:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstop_msg[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.628s]    68 |         auto [01;35m[Kstop_msg[m[K = geometry_msgs::msg::Twist();
+[1.628s]       |              [01;35m[K^~~~~~~~[m[K
+[6.097s] [100%] [32m[1mLinking CXX executable robot_controller_node[0m
+[6.379s] [100%] Built target robot_controller_node
+[6.387s] Invoked command in '/home/pratik/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pratik/ros2_ws/build/my_robot_description -- -j20 -l20
+[6.394s] Invoking command in '/home/pratik/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pratik/ros2_ws/build/my_robot_description
+[6.399s] -- Install configuration: ""
+[6.399s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/urdf
+[6.399s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro
+[6.400s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/launch
+[6.400s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_gazebo_rviz.launch.py
+[6.400s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/robot_controller_node
+[6.403s] -- Set runtime path of "/home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/robot_controller_node" to ""
+[6.403s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/robot_controller.py
+[6.403s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[6.403s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[6.403s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[6.403s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[6.403s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[6.404s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[6.404s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[6.404s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[6.404s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[6.404s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[6.404s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[6.404s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[6.404s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[6.404s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[6.404s] -- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml
+[6.406s] Invoked command in '/home/pratik/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pratik/ros2_ws/build/my_robot_description

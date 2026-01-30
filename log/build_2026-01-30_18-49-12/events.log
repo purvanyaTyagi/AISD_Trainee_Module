@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000402] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.000431] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.004502] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.004743] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'build'}
+[0.005179] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pratik/ros2_ws/build/my_robot_description', '--', '-j20', '-l20'], 'cwd': '/home/pratik/ros2_ws/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratik'), ('OLDPWD', '/home/pratik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2874'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratik/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratik'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/pratik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratik-Legion-5-15IRX9:@/tmp/.ICE-unix/2874,unix/pratik-Legion-5-15IRX9:/tmp/.ICE-unix/2874'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b836c0ed_f0fc_4f5d_bed4_1ae3bea0ec91'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TH82J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratik/ros2_ws/build/my_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.029550] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099931] (-) TimerEvent: {}
+[0.145652] (my_robot_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.167588] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.169514] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.174345] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.181093] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.189665] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.200037] (-) TimerEvent: {}
+[0.212824] (my_robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.214128] (my_robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.290308] (my_robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300220] (-) TimerEvent: {}
+[0.331159] (my_robot_description) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.339568] (my_robot_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.351043] (my_robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.393328] (my_robot_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.393501] (my_robot_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.393554] (my_robot_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.393842] (my_robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.394265] (my_robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.394669] (my_robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.395289] (my_robot_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.395355] (my_robot_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.395686] (my_robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.396777] (my_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.400263] (-) TimerEvent: {}
+[0.406493] (my_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.408835] (my_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/pratik/ros2_ws/build/my_robot_description\n'}
+[0.430554] (my_robot_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_controller_node\x1b[0m\n'}
+[0.434972] (my_robot_description) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[0.450738] (my_robot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o\x1b[0m\n'}
+[0.500401] (-) TimerEvent: {}
+[0.600632] (-) TimerEvent: {}
+[0.700902] (-) TimerEvent: {}
+[0.801168] (-) TimerEvent: {}
+[0.901416] (-) TimerEvent: {}
+[1.001650] (-) TimerEvent: {}
+[1.101901] (-) TimerEvent: {}
+[1.202123] (-) TimerEvent: {}
+[1.302413] (-) TimerEvent: {}
+[1.402661] (-) TimerEvent: {}
+[1.502925] (-) TimerEvent: {}
+[1.603177] (-) TimerEvent: {}
+[1.703401] (-) TimerEvent: {}
+[1.803662] (-) TimerEvent: {}
+[1.903915] (-) TimerEvent: {}
+[2.004134] (-) TimerEvent: {}
+[2.104406] (-) TimerEvent: {}
+[2.204652] (-) TimerEvent: {}
+[2.304866] (-) TimerEvent: {}
+[2.405129] (-) TimerEvent: {}
+[2.505353] (-) TimerEvent: {}
+[2.592492] (my_robot_description) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[2.605431] (-) TimerEvent: {}
+[2.703062] (my_robot_description) StdoutLine: {'line': b'[ 75%] Built target teleop_node\n'}
+[2.705532] (-) TimerEvent: {}
+[2.805732] (-) TimerEvent: {}
+[2.906038] (-) TimerEvent: {}
+[3.006326] (-) TimerEvent: {}
+[3.106577] (-) TimerEvent: {}
+[3.206894] (-) TimerEvent: {}
+[3.307135] (-) TimerEvent: {}
+[3.407433] (-) TimerEvent: {}
+[3.507693] (-) TimerEvent: {}
+[3.607959] (-) TimerEvent: {}
+[3.708171] (-) TimerEvent: {}
+[3.808392] (-) TimerEvent: {}
+[3.908638] (-) TimerEvent: {}
+[4.008906] (-) TimerEvent: {}
+[4.109172] (-) TimerEvent: {}
+[4.209416] (-) TimerEvent: {}
+[4.309642] (-) TimerEvent: {}
+[4.409899] (-) TimerEvent: {}
+[4.510141] (-) TimerEvent: {}
+[4.610358] (-) TimerEvent: {}
+[4.710634] (-) TimerEvent: {}
+[4.810860] (-) TimerEvent: {}
+[4.911098] (-) TimerEvent: {}
+[5.011305] (-) TimerEvent: {}
+[5.111545] (-) TimerEvent: {}
+[5.211752] (-) TimerEvent: {}
+[5.311994] (-) TimerEvent: {}
+[5.412235] (-) TimerEvent: {}
+[5.512480] (-) TimerEvent: {}
+[5.612889] (-) TimerEvent: {}
+[5.713125] (-) TimerEvent: {}
+[5.813322] (-) TimerEvent: {}
+[5.913555] (-) TimerEvent: {}
+[6.013769] (-) TimerEvent: {}
+[6.113987] (-) TimerEvent: {}
+[6.214203] (-) TimerEvent: {}
+[6.314434] (-) TimerEvent: {}
+[6.414716] (-) TimerEvent: {}
+[6.514922] (-) TimerEvent: {}
+[6.615170] (-) TimerEvent: {}
+[6.715413] (-) TimerEvent: {}
+[6.815651] (-) TimerEvent: {}
+[6.915898] (-) TimerEvent: {}
+[7.016152] (-) TimerEvent: {}
+[7.116368] (-) TimerEvent: {}
+[7.146359] (my_robot_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_controller_node\x1b[0m\n'}
+[7.216541] (-) TimerEvent: {}
+[7.316801] (-) TimerEvent: {}
+[7.417048] (-) TimerEvent: {}
+[7.483095] (my_robot_description) StdoutLine: {'line': b'[100%] Built target robot_controller_node\n'}
+[7.489934] (my_robot_description) CommandEnded: {'returncode': 0}
+[7.490789] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'install'}
+[7.496180] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pratik/ros2_ws/build/my_robot_description'], 'cwd': '/home/pratik/ros2_ws/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratik'), ('OLDPWD', '/home/pratik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2874'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratik/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratik'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/pratik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratik-Legion-5-15IRX9:@/tmp/.ICE-unix/2874,unix/pratik-Legion-5-15IRX9:/tmp/.ICE-unix/2874'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b836c0ed_f0fc_4f5d_bed4_1ae3bea0ec91'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TH82J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratik/ros2_ws/build/my_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c70e1f429a8ae012b4bbf98d697caaa0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pratik/ros2_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[7.503051] (my_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.503198] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/urdf\n'}
+[7.503466] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro\n'}
+[7.503533] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/launch\n'}
+[7.503585] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_gazebo_rviz.launch.py\n'}
+[7.503632] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/robot_controller_node\n'}
+[7.507109] (my_robot_description) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/robot_controller_node" to ""\n'}
+[7.507185] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/teleop_node\n'}
+[7.507571] (my_robot_description) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/teleop_node" to ""\n'}
+[7.507644] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/lib/my_robot_description/robot_controller.py\n'}
+[7.507674] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description\n'}
+[7.507701] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description\n'}
+[7.507724] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh\n'}
+[7.507748] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv\n'}
+[7.507771] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh\n'}
+[7.507811] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv\n'}
+[7.507833] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash\n'}
+[7.507858] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh\n'}
+[7.507878] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh\n'}
+[7.507898] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv\n'}
+[7.507919] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv\n'}
+[7.507940] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description\n'}
+[7.507961] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake\n'}
+[7.507981] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake\n'}
+[7.508001] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml\n'}
+[7.508884] (my_robot_description) CommandEnded: {'returncode': 0}
+[7.517277] (-) TimerEvent: {}
+[7.519806] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 0}
+[7.520059] (-) EventReactorShutdown: {}

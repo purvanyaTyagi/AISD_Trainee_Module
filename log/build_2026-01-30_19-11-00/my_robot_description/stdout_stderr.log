@@ -1,0 +1,271 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pratik/ros2_ws/build/my_robot_description
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_my_robot_description
+running egg_info
+creating my_robot_description.egg-info
+writing my_robot_description.egg-info/PKG-INFO
+writing dependency_links to my_robot_description.egg-info/dependency_links.txt
+writing top-level names to my_robot_description.egg-info/top_level.txt
+writing manifest file 'my_robot_description.egg-info/SOURCES.txt'
+reading manifest file 'my_robot_description.egg-info/SOURCES.txt'
+writing manifest file 'my_robot_description.egg-info/SOURCES.txt'
+[  8%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_c.dir/rosidl_generator_c/my_robot_description/srv/detail/set_velocity__functions.c.o[0m
+[  8%] Built target my_robot_description__cpp
+[  8%] Built target ament_cmake_python_build_my_robot_description_egg
+[ 11%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 20%] [32m[1mLinking C shared library libmy_robot_description__rosidl_generator_c.so[0m
+[ 20%] Built target my_robot_description__rosidl_generator_c
+[ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_description/srv/set_velocity__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_description/srv/detail/set_velocity__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_description/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_description/srv/set_velocity__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_description/srv/detail/set_velocity__type_support_c.cpp.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_description/srv/detail/set_velocity__type_support.c.o[0m
+[ 48%] [32m[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_c.so[0m
+[ 51%] [32m[1mLinking C shared library libmy_robot_description__rosidl_typesupport_introspection_c.so[0m
+[ 51%] Built target my_robot_description__rosidl_typesupport_c
+[ 51%] Built target my_robot_description__rosidl_typesupport_introspection_c
+[ 54%] [32m[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_cpp.so[0m
+[ 54%] Built target my_robot_description__rosidl_typesupport_cpp
+[ 60%] [32mBuilding CXX object CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[ 65%] [32m[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_introspection_cpp.so[0m
+[ 65%] [32m[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 68%] [32m[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_fastrtps_c.so[0m
+[ 68%] Built target my_robot_description__rosidl_typesupport_fastrtps_cpp
+[ 68%] Built target my_robot_description__rosidl_typesupport_introspection_cpp
+[ 68%] Built target my_robot_description__rosidl_typesupport_fastrtps_c
+[ 68%] Built target my_robot_description
+[ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 71%] Built target my_robot_description__py
+[ 74%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_py.dir/rosidl_generator_py/my_robot_description/srv/_set_velocity_s.c.o[0m
+[ 77%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_description/libmy_robot_description__rosidl_generator_py.so[0m
+[ 77%] Built target my_robot_description__rosidl_generator_py
+[ 80%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_c.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_description/my_robot_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_description/my_robot_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 88%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_description/my_robot_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 94%] Built target my_robot_description__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target my_robot_description__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target my_robot_description__rosidl_typesupport_c__pyext
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ was not declared in this scope
+   15 |         const std::shared_ptr<[01;31m[Kyour_package_name[m[K::srv::SetVelocity::Request> request,
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |         const std::shared_ptr<your_package_name::srv::SetVelocity::Request[01;31m[K>[m[K request,
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:11:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ was not declared in this scope
+   11 |     auto client = node->create_client<[01;31m[Kyour_package_name[m[K::srv::SetVelocity>("set_robot_velocity");
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:11:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   11 |     auto client = node->[01;31m[Kcreate_client<your_package_name::srv::SetVelocity>[m[K("set_robot_velocity");
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:11:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_client<<expression error> >(const char [19])[m[K’
+   11 |     auto client = [01;31m[Knode->create_client<your_package_name::srv::SetVelocity>("set_robot_velocity")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:11:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |     auto client = [01;31m[Knode->create_client<your_package_name::srv::SetVelocity>("set_robot_velocity")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:14:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   14 |         auto request = std::[01;31m[Kmake_shared<your_package_name::srv::SetVelocity::Request>[m[K();
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:14:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<your_package_name>()[m[K’
+   14 |         auto request = [01;31m[Kstd::make_shared<your_package_name::srv::SetVelocity::Request>()[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/pratik/ros2_ws/src/my_robot_description/src/teleop_node.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ was not declared in this scope
+   15 |         const std::shared_ptr<[01;31m[Kyour_package_name[m[K::srv::SetVelocity::Request> request,
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |         const std::shared_ptr<your_package_name::srv::SetVelocity::Request[01;31m[K>[m[K request,
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ was not declared in this scope
+   15 |         const std::shared_ptr<[01;31m[Kyour_package_name[m[K::srv::SetVelocity::Request> request,
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |         const std::shared_ptr<your_package_name::srv::SetVelocity::Request[01;31m[K>[m[K request,
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:15:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   15 |         const [01;31m[Kstd[m[K::shared_ptr<your_package_name::srv::SetVelocity::Request> request,
+      |               [01;31m[K^~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ has not been declared
+   15 |         const std::shared_ptr<[01;31m[Kyour_package_name[m[K::srv::SetVelocity::Request> request,
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:15:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   15 |         [01;31m[Kconst[m[K std::shared_ptr<your_package_name::srv::SetVelocity::Request> request,
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ was not declared in this scope
+   16 |         std::shared_ptr<[01;31m[Kyour_package_name[m[K::srv::SetVelocity::Response> response) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |         std::shared_ptr<your_package_name::srv::SetVelocity::Response[01;31m[K>[m[K response) {
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ was not declared in this scope
+   16 |         std::shared_ptr<[01;31m[Kyour_package_name[m[K::srv::SetVelocity::Response> response) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |         std::shared_ptr<your_package_name::srv::SetVelocity::Response[01;31m[K>[m[K response) {
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ was not declared in this scope
+   16 |         std::shared_ptr<[01;31m[Kyour_package_name[m[K::srv::SetVelocity::Response> response) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |         std::shared_ptr<your_package_name::srv::SetVelocity::Response[01;31m[K>[m[K response) {
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   16 |         [01;31m[Kstd[m[K::shared_ptr<your_package_name::srv::SetVelocity::Response> response) {
+      |         [01;31m[K^~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ has not been declared
+   16 |         std::shared_ptr<[01;31m[Kyour_package_name[m[K::srv::SetVelocity::Response> response) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:16:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   16 |         [01;31m[Kstd[m[K::shared_ptr<your_package_name::srv::SetVelocity::Response> response) {
+      |         [01;31m[K^~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:25:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ was not declared in this scope
+   25 |     rclcpp::Service<[01;31m[Kyour_package_name[m[K::srv::SetVelocity>::SharedPtr service_;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:25:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |     rclcpp::Service<your_package_name::srv::SetVelocity[01;31m[K>[m[K::SharedPtr service_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:25:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   25 |     rclcpp::Service<your_package_name::srv::SetVelocity>::[01;31m[KSharedPtr[m[K service_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:25:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+   25 |     rclcpp::Service<your_package_name::srv::SetVelocity>::SharedPtr [01;31m[Kservice_[m[K;
+      |                                                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ was not declared in this scope
+    9 |         [01;31m[Kservice_[m[K = this->create_service<your_package_name::srv::SetVelocity>(
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:9:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ was not declared in this scope
+    9 |         service_ = this->create_service<[01;31m[Kyour_package_name[m[K::srv::SetVelocity>(
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:9:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    9 |         service_ = this->[01;31m[Kcreate_service<your_package_name::srv::SetVelocity>[m[K(
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:9:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::create_service<<expression error> >(const char [19], std::_Bind_helper<false, void (RobotController::*)(...), RobotController*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+    9 |         service_ = [01;31m[Kthis->create_service<your_package_name::srv::SetVelocity>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   10 | [01;31m[K            "set_robot_velocity",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K                                            
+   11 | [01;31m[K            std::bind(&RobotController::handle_velocity_request, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:9:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |         service_ = [01;31m[Kthis->create_service<your_package_name::srv::SetVelocity>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   10 | [01;31m[K            "set_robot_velocity",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K                                            
+   11 | [01;31m[K            std::bind(&RobotController::handle_velocity_request, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:2[m[K:
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::handle_velocity_request(...)[m[K’:
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:20:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+   20 |                     [01;31m[Krequest[m[K->linear_x, request->angular_z);
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/pratik/ros2_ws/src/my_robot_description/src/robot_controller.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   22 |         [01;31m[Kresponse[m[K->success = true;
+      |         [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/teleop_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_controller_node.dir/build.make:76: CMakeFiles/robot_controller_node.dir/src/robot_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/robot_controller_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
