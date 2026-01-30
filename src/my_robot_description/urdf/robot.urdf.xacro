@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <link name="world" />
+  <!--<link
+  name="world" />-->
   <material name="steve_skin">
     <color rgba="0.93 0.80 0.67 1.0" />
   </material>
@@ -294,11 +295,11 @@
   <xacro:wheel_plate_with_wheels prefix="left_leg" parent="left_leg" side="1" />
 
   <xacro:wheel_plate_with_wheels prefix="right_leg" parent="right_leg" side="-1" />
-
+  <!--
   <joint name="world_to_base" type="floating">
     <parent link="world" />
     <child link="torso" />
     <origin xyz="0 0 1.5" />
   </joint>
-
+-->
 </robot>
