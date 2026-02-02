@@ -59,4 +59,53 @@ rviz2
 Bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 (Use q and z to adjust speed/acceleration)
+How to Configure RViz (Once it opens)
+When RViz opens, it will be empty. You must manually add the displays.
+
+Set the Fixed Frame (Top Left):
+
+Find the setting named "Fixed Frame".
+
+Change it from map to odom.
+
+(If odom isn't there, type it manually).
+
+Add the Robot Model:
+
+Click the "Add" button (Bottom Left).
+
+Scroll down and select RobotModel.
+
+Click OK.
+
+Result: You should see your robot (Blue body, Black wheels) in the center.
+
+Add the Lidar (LaserScan):
+
+Click "Add" again.
+
+Select LaserScan.
+
+Click OK.
+
+Important: Expand the LaserScan settings on the left.
+
+Find "Topic" and select /scan from the dropdown menu.
+
+Find "Size (m)" and change it to 0.1 (makes dots bigger).
+
+Add the Coordinates (TF):
+
+Click "Add" -> Select TF.
+
+This shows the "Frames" (arrows) for your wheels and chassis moving in real-time.
+
+Summary of Controls
+Move Camera: Shift + Click & Drag (on trackpad).
+
+Drive Robot: Open a 5th Terminal and run:
+
+Bash
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+Pro Tip: Once you have RViz set up perfectly, you can hit File -> Save Config (Ctrl+S). Next time you run rviz2, it will remember everything!
 
