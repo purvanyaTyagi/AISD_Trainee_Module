@@ -108,4 +108,48 @@ Drive Robot: Open a 5th Terminal and run:
 Bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 Pro Tip: Once you have RViz set up perfectly, you can hit File -> Save Config (Ctrl+S). Next time you run rviz2, it will remember everything!
+## 🗺️ Checkpoint 3: Mapping the World (SLAM)
+
+We have successfully integrated the `slam_toolbox` to generate a 2D occupancy grid map of the Gazebo environment.
+
+### 🔧 Key Features Implemented
+
+#### 1. Perception (Camera & Lidar)
+* **RGB Camera:** Added a camera sensor plugin to the robot URDF (`libgazebo_ros_camera.so`) to provide visual feedback.
+* **Lidar Mapping:** Configured the existing Lidar to work with SLAM, ensuring the `lidar_link` frame is correctly transformed to the `map` frame.
+
+#### 2. Simultaneous Localization and Mapping (SLAM)
+* **Asynchronous Mapping:** utilized `slam_toolbox` in `online_async` mode. This allows the robot to:
+    * Estimate its position (`odom` -> `map` transform).
+    * Detect obstacles (walls, cylinders).
+    * Update the map in real-time as it explores.
+
+#### 3. Map Artifacts
+* **Generated Map:** Successfully explored the world and saved the environment as `my_map.pgm` and `my_map.yaml`.
+* **Map Visualization:** Verified the occupancy grid in RViz2 (White = Free Space, Black = Obstacles).
+
+---
+
+## 🚀 How to Run Mapping (SLAM)
+
+**1. Launch Simulation**
+```bash
+ros2 launch gazebo_ros gazebo.launch.py
+2. Spawn Robot
+
+Bash
+ros2 run gazebo_ros spawn_entity.py -entity my_mobile_bot -file src/AISD_Trainee_Module/src/my_robot_description/urdf/my_robot.urdf.xacro
+3. Start State Publisher
+
+Bash
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(cat src/AISD_Trainee_Module/src/my_robot_description/urdf/my_robot.urdf.xacro)" -p use_sim_time:=true
+4. Start SLAM
+
+Bash
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
+5. Visualize & Drive
+
+Bash
+ros2 run rviz2 rviz2
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
