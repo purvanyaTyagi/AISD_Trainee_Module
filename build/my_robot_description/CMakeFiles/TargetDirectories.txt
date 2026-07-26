@@ -1,0 +1,10 @@
+/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/CMakeFiles/uninstall.dir
+/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/CMakeFiles/my_robot_description_uninstall.dir
+/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/CMakeFiles/joint_states_mover.dir
+/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/CMakeFiles/test.dir
+/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/CMakeFiles/edit_cache.dir
+/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/CMakeFiles/rebuild_cache.dir
+/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/CMakeFiles/list_install_components.dir
+/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/CMakeFiles/install.dir
+/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/CMakeFiles/install/local.dir
+/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/CMakeFiles/install/strip.dir
