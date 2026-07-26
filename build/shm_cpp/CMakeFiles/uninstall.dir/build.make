@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp
+CMAKE_SOURCE_DIR = /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp
+CMAKE_BINARY_DIR = /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp
+CMAKE_SOURCE_DIR = /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp
+CMAKE_BINARY_DIR = /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp
 
 # Utility rule file for ament_cmake_python_build_shm_cpp_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_shm_cpp_egg.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_build_shm_cpp_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_shm_cpp_egg:
-	cd /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/ament_cmake_python/shm_cpp && /usr/bin/python3 setup.py egg_info
+	cd /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/ament_cmake_python/shm_cpp && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_shm_cpp_egg: CMakeFiles/ament_cmake_python_build_shm_cpp_egg
 ament_cmake_python_build_shm_cpp_egg: CMakeFiles/ament_cmake_python_build_shm_cpp_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_shm_cpp_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_shm_cpp_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_shm_cpp_egg.dir/depend:
-	cd /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles/ament_cmake_python_build_shm_cpp_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles/ament_cmake_python_build_shm_cpp_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_shm_cpp_egg.dir/depend
 

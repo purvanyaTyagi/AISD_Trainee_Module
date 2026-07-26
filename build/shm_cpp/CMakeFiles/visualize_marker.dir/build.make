@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp
+CMAKE_SOURCE_DIR = /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp
+CMAKE_BINARY_DIR = /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp
 
 # Include any dependencies generated for this target.
 include CMakeFiles/visualize_marker.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/visualize_marker.dir/progress.make
 include CMakeFiles/visualize_marker.dir/flags.make
 
 CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o: CMakeFiles/visualize_marker.dir/flags.make
-CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp/src/visualize_marker.cpp
+CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o: /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp/src/visualize_marker.cpp
 CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o: CMakeFiles/visualize_marker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o -MF CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o.d -o CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o -c /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp/src/visualize_marker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o -MF CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o.d -o CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.o -c /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp/src/visualize_marker.cpp
 
 CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp/src/visualize_marker.cpp > CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp/src/visualize_marker.cpp > CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.i
 
 CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp/src/visualize_marker.cpp -o CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp/src/visualize_marker.cpp -o CMakeFiles/visualize_marker.dir/src/visualize_marker.cpp.s
 
 # Object files for target visualize_marker
 visualize_marker_OBJECTS = \
@@ -165,7 +165,7 @@ visualize_marker: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 visualize_marker: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 visualize_marker: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 visualize_marker: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-visualize_marker: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+visualize_marker: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 visualize_marker: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 visualize_marker: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 visualize_marker: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
@@ -179,7 +179,7 @@ visualize_marker: /opt/ros/humble/lib/librcpputils.so
 visualize_marker: /opt/ros/humble/lib/librosidl_runtime_c.so
 visualize_marker: /opt/ros/humble/lib/librcutils.so
 visualize_marker: CMakeFiles/visualize_marker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable visualize_marker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable visualize_marker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/visualize_marker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +191,6 @@ CMakeFiles/visualize_marker.dir/clean:
 .PHONY : CMakeFiles/visualize_marker.dir/clean
 
 CMakeFiles/visualize_marker.dir/depend:
-	cd /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles/visualize_marker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles/visualize_marker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/visualize_marker.dir/depend
 

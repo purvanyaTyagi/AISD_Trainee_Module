@@ -1,9 +1,9 @@
 {
   "package_name": "shm_cpp",
-  "output_dir": "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/rosidl_generator_py/shm_cpp",
+  "output_dir": "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/rosidl_generator_py/shm_cpp",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/rosidl_adapter/shm_cpp:srv/SetSpring.idl"
+    "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/rosidl_adapter/shm_cpp:srv/SetSpring.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/rosidl_adapter/shm_cpp/srv/SetSpring.idl"
+    "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/rosidl_adapter/shm_cpp/srv/SetSpring.idl"
   ]
 }

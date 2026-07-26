@@ -1,8 +1,8 @@
-# Install script for directory: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/shm_cpp__py
+# Install script for directory: /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/shm_cpp__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/shm_cpp")
+  set(CMAKE_INSTALL_PREFIX "/home/sinath101/tirth_ws/AISD_Trainee_Module/install/shm_cpp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

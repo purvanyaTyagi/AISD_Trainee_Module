@@ -1,8 +1,8 @@
-# Install script for directory: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src/my_robot_description
+# Install script for directory: /home/sinath101/tirth_ws/AISD_Trainee_Module/src/my_robot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/install/my_robot_description")
+  set(CMAKE_INSTALL_PREFIX "/home/sinath101/tirth_ws/AISD_Trainee_Module/install/my_robot_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,19 +43,39 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE DIRECTORY FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src/my_robot_description/launch")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_description/joint_states_mover" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_description/joint_states_mover")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_description/joint_states_mover"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_robot_description" TYPE EXECUTABLE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/joint_states_mover")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_description/joint_states_mover" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_description/joint_states_mover")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_description/joint_states_mover"
+         OLD_RPATH "/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_robot_description/joint_states_mover")
+    endif()
+  endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE DIRECTORY FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src/my_robot_description/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE DIRECTORY FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/src/my_robot_description/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE DIRECTORY FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/src/my_robot_description/urdf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_robot_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_description")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_robot_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +83,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description/environment" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description/environment" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -71,42 +91,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description/environment" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description/environment" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_index/share/ament_index/resource_index/packages/my_robot_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_index/share/ament_index/resource_index/packages/my_robot_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description/cmake" TYPE FILE FILES
-    "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_core/my_robot_descriptionConfig.cmake"
-    "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_core/my_robot_descriptionConfig-version.cmake"
+    "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_core/my_robot_descriptionConfig.cmake"
+    "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/ament_cmake_core/my_robot_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/src/my_robot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_description" TYPE FILE FILES "/home/sinath101/tirth_ws/AISD_Trainee_Module/src/my_robot_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -117,5 +137,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/my_robot_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/my_robot_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

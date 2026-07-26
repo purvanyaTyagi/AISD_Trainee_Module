@@ -54,7 +54,7 @@ endif()
 add_library(shm_cpp::shm_cpp__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(shm_cpp::shm_cpp__rosidl_generator_py PROPERTIES
-  INTERFACE_LINK_LIBRARIES "shm_cpp::shm_cpp__rosidl_generator_c;/usr/lib/aarch64-linux-gnu/libpython3.10.so;shm_cpp::shm_cpp__rosidl_typesupport_c"
+  INTERFACE_LINK_LIBRARIES "shm_cpp::shm_cpp__rosidl_generator_c;/usr/lib/x86_64-linux-gnu/libpython3.10.so;shm_cpp::shm_cpp__rosidl_typesupport_c"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

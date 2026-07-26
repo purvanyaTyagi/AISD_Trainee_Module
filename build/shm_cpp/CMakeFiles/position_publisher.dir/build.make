@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp
+CMAKE_SOURCE_DIR = /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp
+CMAKE_BINARY_DIR = /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp
 
 # Include any dependencies generated for this target.
 include CMakeFiles/position_publisher.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/position_publisher.dir/progress.make
 include CMakeFiles/position_publisher.dir/flags.make
 
 CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o: CMakeFiles/position_publisher.dir/flags.make
-CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o: /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp/src/position_publisher.cpp
+CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o: /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp/src/position_publisher.cpp
 CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o: CMakeFiles/position_publisher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o -MF CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o.d -o CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o -c /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp/src/position_publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o -MF CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o.d -o CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o -c /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp/src/position_publisher.cpp
 
 CMakeFiles/position_publisher.dir/src/position_publisher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/position_publisher.dir/src/position_publisher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp/src/position_publisher.cpp > CMakeFiles/position_publisher.dir/src/position_publisher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp/src/position_publisher.cpp > CMakeFiles/position_publisher.dir/src/position_publisher.cpp.i
 
 CMakeFiles/position_publisher.dir/src/position_publisher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/position_publisher.dir/src/position_publisher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp/src/position_publisher.cpp -o CMakeFiles/position_publisher.dir/src/position_publisher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp/src/position_publisher.cpp -o CMakeFiles/position_publisher.dir/src/position_publisher.cpp.s
 
 # Object files for target position_publisher
 position_publisher_OBJECTS = \
@@ -149,14 +149,14 @@ position_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 position_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 position_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 position_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-position_publisher: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+position_publisher: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 position_publisher: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 position_publisher: /opt/ros/humble/lib/librosidl_typesupport_c.so
 position_publisher: /opt/ros/humble/lib/librcpputils.so
 position_publisher: /opt/ros/humble/lib/librosidl_runtime_c.so
 position_publisher: /opt/ros/humble/lib/librcutils.so
 position_publisher: CMakeFiles/position_publisher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable position_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable position_publisher"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/position_publisher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/position_publisher.dir/clean:
 .PHONY : CMakeFiles/position_publisher.dir/clean
 
 CMakeFiles/position_publisher.dir/depend:
-	cd /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles/position_publisher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp /home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/CMakeFiles/position_publisher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/position_publisher.dir/depend
 

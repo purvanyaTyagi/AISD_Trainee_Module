@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"shm_cpp\" -Dshm_cpp__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/rosidl_generator_c -I/home/tss8117/Desktop/tirth_ws/AISD_Trainee_Module/build/shm_cpp/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/rosidl_generator_c -I/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
 
 C_FLAGS = -fPIC -Wall -Wextra
 

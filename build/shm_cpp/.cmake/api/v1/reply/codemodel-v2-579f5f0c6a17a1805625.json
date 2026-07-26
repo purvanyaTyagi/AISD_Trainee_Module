@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d6cf11b70e176615fc18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "shm_cpp__py",
+					"jsonFile" : "directory-shm_cpp__py-f695df6d32b263599e9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp/shm_cpp__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "shm_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_shm_cpp_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_shm_cpp_egg-a631464208feb7e8df6a.json",
+					"name" : "ament_cmake_python_build_shm_cpp_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_shm_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_shm_cpp-9d8ce2cbf5eb2f0e00eb.json",
+					"name" : "ament_cmake_python_copy_shm_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "position_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-position_publisher-584318fb52f637353965.json",
+					"name" : "position_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp-6de591e185d71478794c.json",
+					"name" : "shm_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__cpp-72032123eeb8c586449a.json",
+					"name" : "shm_cpp__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "shm_cpp__py::@b1094ce6cdb699655a2d",
+					"jsonFile" : "target-shm_cpp__py-53c95f15455fc0257207.json",
+					"name" : "shm_cpp__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_generator_c-94370348268f9ff03d8f.json",
+					"name" : "shm_cpp__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_generator_py-a9fa1674ec23ae3b366e.json",
+					"name" : "shm_cpp__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_typesupport_c-6fbecbc502c9a0ddcaa4.json",
+					"name" : "shm_cpp__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_typesupport_c__pyext-5410a3d630e3d09f05fd.json",
+					"name" : "shm_cpp__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_typesupport_cpp-cdfae32719a071efc1af.json",
+					"name" : "shm_cpp__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_typesupport_fastrtps_c-285943fc0fe76f39e319.json",
+					"name" : "shm_cpp__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_typesupport_fastrtps_c__pyext-037679df3519b76f8be3.json",
+					"name" : "shm_cpp__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_typesupport_fastrtps_cpp-b23e7169129c1870ed0b.json",
+					"name" : "shm_cpp__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_typesupport_introspection_c-7a85d7b3d9016b60a68b.json",
+					"name" : "shm_cpp__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_typesupport_introspection_c__pyext-77a43a1fec259a7083fd.json",
+					"name" : "shm_cpp__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp__rosidl_typesupport_introspection_cpp-689cc9fe42d18da9eb65.json",
+					"name" : "shm_cpp__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shm_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shm_cpp_uninstall-51796df1d7d56adff9b0.json",
+					"name" : "shm_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f6c9aea15db27766eb92.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "visualize_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-visualize_marker-c03ef2fb7a485e545d5d.json",
+					"name" : "visualize_marker",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sinath101/tirth_ws/AISD_Trainee_Module/build/shm_cpp",
+		"source" : "/home/sinath101/tirth_ws/AISD_Trainee_Module/shm_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
